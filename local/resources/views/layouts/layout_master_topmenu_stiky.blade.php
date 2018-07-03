@@ -114,18 +114,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 p-0 pl-3 align-self-center float-right d-lg-block d-md-block d-none"
+            <div class="col-md-7 p-0 pl-3 text-right align-self-center d-lg-block d-md-block d-none"
                  id="layout_master_topmenu_sticky_middle">
                 <ul>
                     <li><a href="">TÊN MIỀN</a></li>
                     <li><a href="{{url('hosting.html')}}">HOSTING</a></li>
-                    <li><a href="">TIN TỨC-KHUYẾN MÃI</a></li>
                     <li><a href="{{url('website-mau.html')}}">WEBSITE MẪU</a></li>
+                    <li><a href="">BẢNG GIÁ</a></li>
+                    <li><a href="">TIN TỨC-KHUYẾN MÃI</a></li>
                     <li><a href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
                 </ul>
             </div>
-            <div class="col-md-3 p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-sm-between"
+            <div class="col-md-2 p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-sm-between"
                  id="layout_master_topmenu_sticky_right">
                 <div id="mobi_menu" class="d-lg-none d-md-none d-sm-block">
                     <button href=""><i class="fas fa-bars"></i> MENU</button>

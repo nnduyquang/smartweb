@@ -1,7 +1,7 @@
 <style>
     div#slogan2{
         /*height: 186px;*/
-        background-image: url(images/Banner/background_play_button.jpg);
+        background-image: url('images/Banner/background_play_button.jpg');
         background-repeat: no-repeat;
         background-size: 100% auto;
         border-bottom: 1px solid #a2a3a2;
