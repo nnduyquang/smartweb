@@ -37,7 +37,7 @@
                     <h3>CHÚNG TÔI LẮNG NGHE KHÁCH HÀNG</h3>
                     <p>Off the Shelf is a great product that comes with customer support to match. Whether you have a question,
                         a concern or need assistance, we treat you like a valued customers, not a nuisance.</p>
-                    <img src="{{URL::asset('images/banner/maquette-billet.png')}}" alt="" style="width: 80%;height: auto;">
+                    <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 80%;height: auto;">
                 </div>
             </div>
         </div>

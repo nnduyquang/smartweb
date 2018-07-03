@@ -50,7 +50,7 @@
                     a flexible banner system and more than 30 widgets to use on your pages.</p>
             </div>
             <div class="col-md-12" style="z-index: 22">
-                <img  src="{{ URL::asset('images/banner/desk_features_new.png') }}" alt="" style="width: 100%;height: auto;z-index: 12">
+                <img  src="{{ URL::asset('images/Banner/desk_features_new.png') }}" alt="" style="width: 100%;height: auto;z-index: 12">
             </div>
         </div>
     </div>
