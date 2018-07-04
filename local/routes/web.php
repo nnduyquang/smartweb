@@ -19,6 +19,10 @@ Route::get('/website-mau.html', function () {
     return view('Frontsend.Webmau.index');
 });
 
+Route::get('/bang-gia.html', function () {
+    return view('Frontsend.price_list.index');
+});
+
 
 Route::get('/ho-tro.html', function () {
     return view('Frontsend.Pages.hotro');

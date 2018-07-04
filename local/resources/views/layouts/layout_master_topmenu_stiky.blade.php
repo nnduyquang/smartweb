@@ -108,7 +108,7 @@
             <div class="col-md-3 p-0 align-self-center" id="layout_master_topmenu_sticky_left">
                 <div class="row align-self-center text-left">
                     <div class="col-md-12 align-self-center">
-                        <a href="http://localhost:8080/smls-thietkeweb/">
+                        <a href="{{URL::to('/')}}">
                             <img src="images/logo/Untitled-2.png" alt="" class="logo" style="width: 100%;height: auto">
                         </a>
                     </div>
@@ -120,7 +120,7 @@
                     <li><a href="">TÊN MIỀN</a></li>
                     <li><a href="{{url('hosting.html')}}">HOSTING</a></li>
                     <li><a href="{{url('website-mau.html')}}">WEBSITE MẪU</a></li>
-                    <li><a href="">BẢNG GIÁ</a></li>
+                    <li><a href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
                     <li><a href="">TIN TỨC-KHUYẾN MÃI</a></li>
                     <li><a href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
