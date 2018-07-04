@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Bảng Giá Thiết Kế Website</h1>
         <hr>
-        <div class="price-info">
+        <div id="price-info">
             <div class="row">
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
                     <div class="title">Chức năng</div>
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </div>
-        <div class="add-on-info">
+        <div id="add-on-info">
             <div class="row no-gutters">
                 <div class="col-8">
                     <div class="title">DỊCH VỤ CỘNG THÊM</div>
@@ -160,6 +160,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="price-contact">
+            <p>CẦN BIẾT THÊM THÔNG TIN, QUÝ KHÁCH VUI LÒNG LIÊN HỆ: <span style="color: red;font-weight: bold">0914.348.131</span> – HOTLINE: <span style="color: red;font-weight: bold">0911.177.131</span></p>
         </div>
     </div>
 </div>

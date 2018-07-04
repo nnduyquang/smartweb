@@ -7,12 +7,12 @@
     margin: 20px 0;
     font-weight: bold;
   }
-  hr{
+  hr {
     height: 3px;
     width: 38px;
     background-color: #074b73;
   }
-  .price-info {
+  #price-info {
     margin-bottom: 20px;
     .one-price {
       .title {
@@ -30,7 +30,7 @@
         i {
           display: block;
           font-size: 76px;
-          color: #4cb8d4;
+          color: white;
         }
         span {
           display: block;
@@ -47,7 +47,7 @@
           border-bottom: solid 1px #fff;
           line-height: 16px;
           min-height: 53px;
-          font-size: 18px;
+          font-size: 15px;
           i {
             color: #14a963;
           }
@@ -68,6 +68,11 @@
           text-transform: lowercase;
           &:first-letter {
             text-transform: uppercase;
+          }
+        }
+        .price {
+          i {
+            color: #4cb8d4;
           }
         }
       }
@@ -133,8 +138,7 @@
       }
     }
   }
-  .add-on-info {
-    margin-bottom: 20px;
+  #add-on-info {
     .title {
       color: white;
       font-size: 18px;
@@ -145,15 +149,24 @@
       font-weight: bold;
     }
     .content {
-      .item{
+      .item {
         border: 1px solid rgba(0, 0, 0, 0.0666667);
         height: 85px;
         line-height: 19px;
-        span{
+        span {
           padding: 9px 12px;
-          font-size: 18px;
+          font-size: 15px;
         }
       }
+    }
+  }
+  #price-contact {
+    margin-bottom: 20px;
+    p {
+      font-size: 16px;
+      text-align: center;
+      display: block;
+      padding: 10px 0;
     }
   }
 }
