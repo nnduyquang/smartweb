@@ -21,7 +21,7 @@
 
     }
 
-    div#layout_master_topmenu_sticky_middle > ul li a {
+    div#layout_master_topmenu_sticky_middle ul li a {
         display: inline-block;
         color: #4e4e4e;
         line-height: 86px;
@@ -98,6 +98,44 @@
             background-position: right center;
         }
     }
+    div#dv_content:hover div#dichvu_khac{
+        display: block;
+        top: 100%;
+    }
+
+    div#dichvu_khac{
+        text-align: center;
+        margin-top: 1px;
+        z-index: 12;
+        display: none;
+        font-size: 18px;
+        font-family: 'Asap Condensed', sans-serif;
+        transition: .3s;
+        color: white;
+        top: 0%;
+        transition: .3s;
+    }
+
+    div#dichvu_khac ul li {
+       margin-bottom: 1px;
+    }
+
+    div#dichvu_khac ul li a{
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        width: 110px;
+        background-color: #05a3d4;
+    }
+
+    div#dichvu_khac ul li a:hover{
+        padding-left: 13px;
+    }
+
+    div#dichvu_khac ul li a:hover div#dv_content > a{
+        background-color: #05a3d4;
+    }
+
 
 
 </style>
@@ -105,23 +143,32 @@
 <div class="container-fluid" id="smart_web_menu">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-md-3 p-0 align-self-center" id="layout_master_topmenu_sticky_left">
+            <div class="col-md-2 p-0 align-self-center" id="layout_master_topmenu_sticky_left">
                 <div class="row align-self-center text-left">
                     <div class="col-md-12 align-self-center">
                         <a href="http://localhost:8080/smls-thietkeweb/">
-                            <img src="images/logo/Untitled-2.png" alt="" class="logo" style="width: 100%;height: auto">
+                            <img src="images/logo/Untitled-2.png" alt="" class="logo" style="width: 276px;height: 90%">
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 p-0 pl-3 text-right align-self-center d-lg-block d-md-block d-none"
+            <div class="col-md-8 p-0 text-right align-self-center d-lg-block d-md-block d-none"
                  id="layout_master_topmenu_sticky_middle">
                 <ul>
-                    <li><a href="">TÊN MIỀN</a></li>
-                    <li><a href="{{url('hosting.html')}}">HOSTING</a></li>
-                    <li><a href="{{url('website-mau.html')}}">WEBSITE MẪU</a></li>
-                    <li><a href="">BẢNG GIÁ</a></li>
-                    <li><a href="">TIN TỨC-KHUYẾN MÃI</a></li>
+                    <li><a href="">GIỚI THIỆU</a></li>
+                    <li><a href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
+                    <li><a href="{{url('banggia-web.html')}}">BẢNG GIÁ</a></li>
+                    <li><div class="position-relative" id="dv_content">
+                            <a href="">DỊCH VỤ KHÁC</a>
+                            <div class="position-absolute" id="dichvu_khac">
+                                <ul>
+                                    <li><a href="{{url('hosting.html')}}" class="dichvu-khac">HOSTING</a></li>
+                                    <li><a href="" class="dichvu-khac">DOMAIN</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">DIGITAL MARKETING</a></li>
                     <li><a href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
                 </ul>

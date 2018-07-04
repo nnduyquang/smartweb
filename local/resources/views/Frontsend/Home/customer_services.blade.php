@@ -1,0 +1,38 @@
+<style>
+    div#customer_services h3{
+        font-size: 32px;
+        position: relative;
+    }
+
+    div#customer_services h3:before{
+        position: absolute;
+        content: '';
+        width: 38px;
+        height: 3px;
+        background-color: #6ca81d;
+        left: 50%;
+        transform: translate(-50%,0%);
+        bottom: -10px;
+    }
+
+    div#customer_services p{
+        padding-top: 30px;
+        font-size: 20px;
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+</style>
+<div class="container-fluid pb-5" id="customer_services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>CHÚNG TÔI LẮNG NGHE KHÁCH HÀNG</h3>
+                <p>
+                    Website là một sản phẩm tuyệt vời đi kèm với hỗ trợ khách hàng để phù hợp, cho dù bạn có một
+                    câu hỏi, một mối quan tâm hoặc cần hổ trợ, chúng tôi đối xử với bạn như một khách hàng có giá
+                    trị và tôi tin sẽ giúp bạn nữa. Trong nghành Digital Marketing.
+                </p>
+                <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 80%;height: auto;">
+            </div>
+        </div>
+    </div>
+</div>
