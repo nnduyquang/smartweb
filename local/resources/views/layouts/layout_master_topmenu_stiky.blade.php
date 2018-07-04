@@ -146,7 +146,8 @@
             <div class="col-md-2 p-0 align-self-center" id="layout_master_topmenu_sticky_left">
                 <div class="row align-self-center text-left">
                     <div class="col-md-12 align-self-center">
-                        <a href="http://localhost:8080/smls-thietkeweb/">
+
+                        <a href="{{URL::to('/')}}">
                             <img src="images/logo/Untitled-2.png" alt="" class="logo" style="width: 276px;height: 90%">
                         </a>
                     </div>
@@ -155,9 +156,10 @@
             <div class="col-md-8 p-0 text-right align-self-center d-lg-block d-md-block d-none"
                  id="layout_master_topmenu_sticky_middle">
                 <ul>
+
                     <li><a href="">GIỚI THIỆU</a></li>
                     <li><a href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
-                    <li><a href="{{url('banggia-web.html')}}">BẢNG GIÁ</a></li>
+                    <li><a href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
                     <li><div class="position-relative" id="dv_content">
                             <a href="">DỊCH VỤ KHÁC</a>
                             <div class="position-absolute" id="dichvu_khac">

@@ -20,7 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Smartlinks Thiết kế website chuẩn seo , thiết kế web giá rẻ chất lượng</title>
     {{ Html::style('css/core.common.css') }}
-    {{ Html::style('css/frontends.css') }}
+    {{ Html::style('css/frontend.css') }}
 </head>
 <body>
 @include('layouts.layout_master_topmenu_stiky')

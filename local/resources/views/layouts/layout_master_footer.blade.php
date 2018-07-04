@@ -84,45 +84,65 @@
                 <ul class="">
                     <li class="pb-3"><img src="images/logo/logo-footer.png" alt="" style="width: 100%;height: auto;">
                     </li>
-                    <li>The WordPress Online Marketing Theme. Turn a visitor into a customer.</li>
-                    <li>Easy to install, packed with loads of features, no need to code with integrated page builder and
-                        highly flexible.
+                    <li>Khách hàng trao niềm tin chúng tôi tạo nên thương hiệu.</li>
+                    <li>Khách hàng là giá trị là tài sản quý giá để dồng hành cùng phát triển.
                     </li>
+
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 col-12">
                 <ul class="">
                     <li>THÔNG TIN VỀ CHÚNG TÔI</li>
-                    <li><a href="">ĐỊA CHỈ : 25 Hoàng Diệu, Phường 12, Quận 4</a></li>
-                    <li><a href="">Email support : Suport24.Smartweb@gmail.com</a></li>
-                    <li><a href="">HOTLINE : 0909 123 123</a></li>
-                    <li><a href="">SUPPORT : 0909 123 123</a></li>
+                    <li>ĐỊA CHỈ : 25 Hoàng Diệu, Phường 12, Quận 4</li>
+                    <li>Email support : Suport24.Smartweb@gmail.com</li>
+                    <li>HOTLINE : 0914.348.131</li>
+                    <li>SUPPORT : (028) 66830091</li>
                 </ul>
             </div>
 
+            {{--<div class="col-md-3 col-sm-6 col-12">--}}
+                {{--<ul class="">--}}
+                    {{--<li>BÀI VIẾT CÔNG NGHỆ</li>--}}
+                    {{--<li>--}}
+                       {{--<div class="d-flex align-items-center">--}}
+                           {{--<img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy8-120x120.jpg" alt="" style="width: 60px;height: auto;">--}}
+                           {{--<div class="pl-2"><p class="p-0 m-0">This book will change your life</p>--}}
+                           {{--<span style="color: #cccccc">June 3, 2015</span></div>--}}
+                       {{--</div>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<div class="d-flex align-items-center">--}}
+                            {{--<img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy7-120x120.jpg" alt="" style="width: 60px;height: auto;">--}}
+                            {{--<div class="pl-2"><p class="p-0 m-0">Essential Steps to Success</p>--}}
+                                {{--<span style="color: #cccccc">June 3, 2015</span></div>--}}
+                        {{--</div>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<div class="d-flex align-items-center">--}}
+                            {{--<img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy4-120x120.jpg" alt="" style="width: 60px;height: auto;">--}}
+                            {{--<div class="pl-2"><p class="p-0 m-0">Marketing trends of the year</p>--}}
+                                {{--<span style="color: #cccccc">June 3, 2015</span></div>--}}
+                        {{--</div>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
             <div class="col-md-3 col-sm-6 col-12">
                 <ul class="">
-                    <li>BÀI VIẾT CÔNG NGHỆ</li>
+                    <li>DIGITAL MARKETING</li>
                     <li>
-                       <div class="d-flex align-items-center">
-                           <img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy8-120x120.jpg" alt="" style="width: 60px;height: auto;">
-                           <div class="pl-2"><p class="p-0 m-0">This book will change your life</p>
-                           <span style="color: #cccccc">June 3, 2015</span></div>
-                       </div>
+                        <a href="">Google Ads.</a>
                     </li>
                     <li>
-                        <div class="d-flex align-items-center">
-                            <img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy7-120x120.jpg" alt="" style="width: 60px;height: auto;">
-                            <div class="pl-2"><p class="p-0 m-0">Essential Steps to Success</p>
-                                <span style="color: #cccccc">June 3, 2015</span></div>
-                        </div>
+                        <a href=""> Google Display.</a>
                     </li>
                     <li>
-                        <div class="d-flex align-items-center">
-                            <img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/06/blog_dummy4-120x120.jpg" alt="" style="width: 60px;height: auto;">
-                            <div class="pl-2"><p class="p-0 m-0">Marketing trends of the year</p>
-                                <span style="color: #cccccc">June 3, 2015</span></div>
-                        </div>
+                        <a href=""> Google Re Marketing.</a>
+                    </li>
+                    <li>
+                        <a href="">  Facebook Ads.</a>
+                    </li>
+                    <li>
+                        <a href=""> Youtube Ads.</a>
                     </li>
                 </ul>
             </div>
@@ -136,9 +156,21 @@
                         <button><i class="fab fa-google-plus-g"></i></button>
                     </li>
                 </ul>
+                
+                <div>
+                    <img src="{{URL::asset('images/Banner/GooglePartners.png')}}" alt="" style="width: 100%;height: auto;">
+                </div>
+
+
+
             </div>
 
 
+            {{--<div class="col-md-12 text-center" >--}}
+                {{--<div class="pb-3 m-auto">--}}
+                    {{--<img src="{{URL::asset('images/Banner/20150827110756-dathongbao.png')}}" alt="" style="width: 200px;height: auto;">--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
 
     </div>
@@ -151,13 +183,9 @@
         <div class="row text-center">
             <div class="col-md-12 pt-2 pb-2" style="font-size: 14px;">
                 Copyright © 2018 Smartlinks.vn . All Rights Reserved. <br>
-                Sử dụng nội dung ở trang này và dịch vụ tại Smartlinks.vn có nghĩa là bạn đồng ý với Thỏa thuận sử dụng
-                và Chính sách bảo mật của chúng tôi
-                <br>
-                Công ty cổ phần Smartlinks - Giấy phép kinh doanh số: 0302712571 cấp ngày 04/09/2013 bởi Sở Kế Hoạch và
+
+                Công ty Smartlinks - Giấy phép kinh doanh số: 0312788587 cấp ngày 21/05/2014 bởi Sở Kế Hoạch và
                 Đầu Tư Tp. Hồ Chí Minh
-                <br>
-                Giấy phép cung cấp dịch vụ Viễn thông số 1683/GP - BTTTT cấp ngày 01 tháng 12 năm 2013
             </div>
         </div>
 

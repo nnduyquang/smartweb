@@ -20,19 +20,22 @@
     <div class="container">
         <div class="row pt-5 pb-5">
             <div class="col-12 text-center">
+                <h3 class="pb-3 text-white">CHẤT LƯỢNG - HIỆU QUẢ</h3>
                 <img src="{{ URL::asset('images/icon/symbol_quote.png') }}" alt="">
             </div>
             <div class="col-12 pt-2 pb-2 text-center">
-                <p>"ShapingRain creates marketing tools that not only look good but they
-                    also work! We have seen a direct increase in conversion,
-                    working with your themes. We will definitely recommend you!"</p>
+                <p>"Chúng tôi luôn nghiên cứu chuyên sâu về tập khách hàng của doanh nghiệp,
+                    chúng tôi không thiết kế website cho doanh nghiệp mà thiết kế mang lại
+                    trải nghiệm tốt nhất cho khách hàng của doanh nghiệp. Trải nghiệm của người
+                    dùng chính là cơ sở để chúng tôi định hình bố cục, sắp xếp nội dung, hình ảnh
+                    và tính năng của website để có thể đáp ứng được nhu cầu tốt nhất cho người dùng
+                    vì thế sẽ mang lại hiệu quả cao cho doanh nghiệp."</p>
 
 
                 <span>
                         <p style="font-size: 17px;font-weight: 600;padding: 0;margin:0">
-                            Smart Website
+                            SMARTLINKS Website
                         </p>
-                        Themeforest Customer
                     </span>
 
             </div>

@@ -16,6 +16,7 @@
     div#create_website_you_want p{
         position: relative;
         font-size: 22px;
+        font-family: 'Encode Sans Condensed', sans-serif;
 
     }
     div#create_website_you_want h3:before{
@@ -46,8 +47,9 @@
                 <h3>CÙNG BẠN TẠO NÊN THƯƠNG HIỆU</h3>
             </div>
             <div class="col-md-12 pt-5 pb-5 text-center">
-                <p>Unique features give you a head-start over your competitors: countless customization options,
-                    a flexible banner system and more than 30 widgets to use on your pages.</p>
+                <p>Website chúng tôi thiết kế tuân thủ các yếu tố chất lượng. Với phong cách làm việc chuyên
+                nghiệp, Smartlinks cung cấp các gói dịch vụ thiết kế website cao cấp mang lại nhiều lợi
+                ích ưu việt.</p>
             </div>
             <div class="col-md-12" style="z-index: 22">
                 <img  src="{{ URL::asset('images/Banner/desk_features_new.png') }}" alt="" style="width: 100%;height: auto;z-index: 12">

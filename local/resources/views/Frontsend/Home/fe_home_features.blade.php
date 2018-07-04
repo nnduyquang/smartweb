@@ -1,4 +1,6 @@
 <style>
+
+
     div#fe_home_features hr{
         height: 3px;
         width: 38px;
@@ -8,11 +10,21 @@
     div#fe_home_features_top p{
         font-size: 35px;
         font-weight: 500;
+
     }
 
     div#fe_home_features_middle p{
         color: #777777;
-        font-size: 23px;
+        font-size: 22px;
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+
+    div#fe_home_features_bottom a{
+        transition: .3s;
+    }
+
+    div#fe_home_features_bottom a:hover{
+        text-decoration: none;
     }
 
     div#fe_home_features_bottom p{
@@ -33,10 +45,11 @@
 
 
             <div class="col-md-12" id="fe_home_features_middle">
-                <p>Focus on what really matters: your product. Create beautiful, unique websites with impactful landing pages and banners,
-                without any coding or design skills</p>
+                <p>Tập trung vào những gì thật sự quan trọng đó là sản phẩm dịch vụ của bạn. tạo các
+                trang web đẹp độc đáo với các trang đích và biểu ngữ có tác động mạnh mẽ đến khách hàng và
+                tăng tỷ lệ chốt đơn hàng cao.</p>
             </div>
-            <div class="col-md-12" id="fe_home_features_bottom"><p>XEM TẤT CẢ CÁC MẨU WEBSITE</p></div>
+            <div class="col-md-12" id="fe_home_features_bottom"><a href=""><p>XEM KHO WEBSITE MẪU</p></a></div>
             <div class="col-md-12">
                 <img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/09/image_browser_websites.jpg" alt=""
                 style="width: 100%;height: auto;">

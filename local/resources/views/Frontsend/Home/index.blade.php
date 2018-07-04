@@ -8,99 +8,137 @@
     @include('Frontsend.Home.responsive_web')
     @include('Frontsend.Home.easy-interaction')
     @include('Frontsend.Home.create-website-you-want')
-    <style>
-        div#customer_services h3{
-            font-size: 32px;
-            position: relative;
-        }
-
-        div#customer_services h3:before{
-            position: absolute;
-            content: '';
-            width: 38px;
-            height: 3px;
-            background-color: #6ca81d;
-            left: 50%;
-            transform: translate(-50%,0%);
-            bottom: -10px;
-        }
-
-        div#customer_services p{
-            padding-top: 30px;
-            font-size: 20px;
-        }
-    </style>
-    <div class="container-fluid pb-5" id="customer_services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>CHÚNG TÔI LẮNG NGHE KHÁCH HÀNG</h3>
-                    <p>Off the Shelf is a great product that comes with customer support to match. Whether you have a question,
-                        a concern or need assistance, we treat you like a valued customers, not a nuisance.</p>
-                    <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 80%;height: auto;">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    @include('Frontsend.Home.slogan2')
+    @include('Frontsend.Home.customer_services')
+    {{--@include('Frontsend.Home.slogan2')--}}
 
     <style>
-        div#bottom_customer p{
+        div#start_your_success{
+            background-image: url('images/bg/vh-bg-large-9cffaf1033.jpg');
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        div#start_your_success_cover{
+            width: 100%;
+            height: 100%;
+            /*background-color: rgba(4,63,153,0.9);*/
+        }
+
+        div#start_your_success_cover input{
+            padding: 6px 10px 6px 10px;
+            width: 80%;
+            margin-bottom: 10px;
             font-size: 18px;
-        }
-        div#bottom_customer i{
-            font-size: 45px;
+            background-color: transparent;
+            border: 2px solid white;
+            color:white;
         }
 
-        div#phone_support{
-            background: linear-gradient(to right, #066994 , #0983b8);
+        textarea.wpcf7-textarea{
+            padding: 6px 10px 6px 10px;
+            background-color: transparent;
+            width: 80%;
+            font-size: 18px;
+            border: 2px solid white;
+            color:white;
+        }
+
+        div#start_your_success_cover  textarea.wpcf7-textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+        }
+
+        div#start_your_success_cover input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+        }
+
+        div#start_your_success_cover input:-ms-input-placeholder { /* Internet Explorer 10-11 */
             color: white;
         }
 
-        div#dev_support{
-            background: linear-gradient(to right, #0983b8 , #0a95d1);
+        div#start_your_success_cover input::-ms-input-placeholder { /* Microsoft Edge */
             color: white;
         }
 
-        div#livechat_support{
-            background: linear-gradient(to right, #0a95d1 , #0ba9ed);
+        div#start_your_success_cover .contact-info p{
+            color: white;
+            font-size: 20px;
+            font-family: 'Asap Condensed', sans-serif;
+
+        }
+
+        div#start_your_success_cover .contact-info p span{
+            color: #87eb04;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Asap Condensed', sans-serif;
+        }
+
+        div#start_your_success_cover .col-md-7 H3{
+            color: white;
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        div#start_your_success_cover .col-md-7 H3 span{
+            color: #87eb04;
+        }
+
+        a.gui-yeu-cau{
+            float: right;
+            width: 80%;
+            display: block;
+            text-align: center;
+            background-color: #87eb04;
+            font-size: 16px;
+            padding: 6px 0 6px 0;
             color: white;
         }
 
+        a.gui-yeu-cau:hover{
+            text-decoration: none;
+
+        }
     </style>
 
-    <div class="container-fluid" id="bottom_customer">
-        <div class="row">
-            <div class="col-lg-4 p-5 d-flex" id="phone_support">
+    <div class="container-fluid position-relative p-0" id="start_your_success">
+        <div  id="start_your_success_cover">
+        <div class="container">
+            <div class="row pb-5 pt-5">
+                <div class="col-md-7">
 
-                <i class="far fa-paper-plane"></i>
-                <div class="pl-3">
-                    <h4>Extensive Documentation</h4>
-                    <p>Off the Shelf comes with a comprehensive, illustrated user
-                        guide that explains the user interface and the theme's unique features.</p>
+                    <h3 style="padding: 10px 0 20px 0">KHỞI ĐỘNG THÀNH CÔNG CỦA BẠN <br>
+                    <span>NGAY HÔM NAY !</span></h3>
+
+                    <h4 style="font-weight:normal;width: 80%;border-top: 2px dotted #eeeeee;padding: 20px 0 20px 0;color: white;font-size: 28px">
+                        TƯ VẤN THIẾT KẾ WEBSITE
+                    </h4>
+
+                    <div class="d-flex align-items-center justify-content-between contact-info">
+                        <p><span>PHONE:</span> (028) 66830091</p>
+                        <p><span>EMAIL:</span> Smartwebvn@gmail.com</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between contact-info">
+                        <p><span>HOTLINE:</span> 0914 348 131</p>
+                        <p><span>EMAIL:</span> Smartwebvn@gmail.com</p>
+                    </div>
+
                 </div>
-
-
-            </div>
-            <div class="col-lg-4 p-5 d-flex" id="dev_support">
-                <i class="far fa-lightbulb"></i>
-                <div class="pl-3">
-                    <h4>Support by the Developers</h4>
-                    <p>The exact same people that designed and developed the theme provide customer service.
-                        You get access to support by trained professionals, 7 days a week.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 p-5 d-flex" id="livechat_support">
-                <i class="far fa-comments"></i>
-                <div class="pl-3">
-                    <h4>Live Chat</h4>
-                    <p>Chat with our customer support agents in a one-on-one chat session — help is just a click away.
-                        Usually available on weekdays through our website</p>
+                <div class="col-md-5 text-right">
+                    <input type="text" placeholder="Tên của bạn">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Số điện thoại">
+                    <textarea rows="2" class="wpcf7-textarea" aria-invalid="false" placeholder="Nội dung"></textarea>
+                    <a href="" class="gui-yeu-cau"> GỬI YÊU CẦU</a>
                 </div>
             </div>
         </div>
+        </div>
     </div>
+
 
 
 @endsection

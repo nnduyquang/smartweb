@@ -17,12 +17,12 @@ mix.styles([
         //'bower_components/fancybox/dist/jquery.fancybox.min.css',
     ], '../css/core.common.css')
 
-    .sass('resources/assets/sass/frontends.scss', '../css/frontends.css')
+    .sass('resources/assets/sass/frontend.scss', '../css/frontend.css')
 
     .styles('resources/assets/js/scripts.js','../js/scripts.js')
     .styles('resources/assets/js/Backend/scripts.js','../js/be_scripts.js')
 
 //chu y Doan cuoi nay chay mot lan npm run dev roi dong khoi no lai de chay fontawesome
 // .copy([
-//     'bower_components/fontawesome/web-fonts-with-css/webfonts/**'
+//     'bower_components/font-awesome/web-fonts-with-css/webfonts/**'
 // ], '../webfonts')
