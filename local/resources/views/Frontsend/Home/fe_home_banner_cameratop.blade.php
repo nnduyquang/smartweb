@@ -173,7 +173,7 @@
                     <p class="mb-5 p-fadein" style="font-size: 18px">
                         - Website hiện đại giao diện đẹp. <br>
                         - Website tối ưu quảng cáo đạt chuẩn Google. <br>
-                        - Do các chuyên gia đạt chứng chỉ Google thự hiện. <br>
+                        - Do các chuyên gia đạt chứng chỉ Google thực hiện. <br>
                         - Chuẩn Google pagespeed 90/100.
                     </p>
 
