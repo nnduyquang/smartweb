@@ -30,7 +30,7 @@
 @include('layouts.layout_master_footer')
 </body>
 <script src="{{URL::asset('owlcarousel/dist/owl.carousel.min.js')}}"></script>
-{{--{{ Html::script('js/core.common.js') }}--}}
+{{ Html::script('js/core.common.js') }}
 {{ Html::script('js/scripts.js') }}
 {{ Html::script('js/be_scripts.js') }}
 </html>

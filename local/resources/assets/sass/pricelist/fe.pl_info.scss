@@ -90,6 +90,11 @@
             background-color: #FFF7EC;
           }
         }
+        .register{
+          a{
+            background-color: #92AD00;
+          }
+        }
       }
       &:nth-child(3) {
         .title {
@@ -105,6 +110,11 @@
             background-color: #E9F3FA;
           }
         }
+        .register{
+          a{
+            background-color: #04B8FF;
+          }
+        }
       }
       &:nth-child(4) {
         .title {
@@ -118,6 +128,11 @@
           background-color: #DBE5ED;
           &:nth-child(2n) {
             background-color: #E7EEF3;
+          }
+        }
+        .register{
+          a{
+            background-color: #125389;
           }
         }
       }
@@ -136,6 +151,21 @@
           }
         }
       }
+      .register{
+        a{
+          width: 100%;
+          border:none;
+          background-color: #002652;
+          color: white;
+          font-size: 18px;
+          line-height: 16px;
+          cursor: pointer;
+          display: block;
+          text-align: center;
+          padding: 20px 0;
+          text-decoration: none;
+        }
+      }
     }
   }
   #add-on-info {
@@ -151,7 +181,7 @@
     .content {
       .item {
         border: 1px solid rgba(0, 0, 0, 0.0666667);
-        height: 85px;
+        height: 55px;
         line-height: 19px;
         span {
           padding: 9px 12px;

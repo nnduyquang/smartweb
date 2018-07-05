@@ -96,6 +96,10 @@
   background-color: #FFF7EC;
 }
 
+#pl_info #price-info .one-price:nth-child(2) .register a {
+  background-color: #92AD00;
+}
+
 #pl_info #price-info .one-price:nth-child(3) .title {
   background-color: #03a3e2;
   color: #fff;
@@ -111,6 +115,10 @@
 
 #pl_info #price-info .one-price:nth-child(3) .item:nth-child(2n) {
   background-color: #E9F3FA;
+}
+
+#pl_info #price-info .one-price:nth-child(3) .register a {
+  background-color: #04B8FF;
 }
 
 #pl_info #price-info .one-price:nth-child(4) .title {
@@ -130,6 +138,10 @@
   background-color: #E7EEF3;
 }
 
+#pl_info #price-info .one-price:nth-child(4) .register a {
+  background-color: #125389;
+}
+
 #pl_info #price-info .one-price:nth-child(5) .title {
   background-color: #26466B;
   color: #fff;
@@ -147,6 +159,20 @@
   background-color: #E6E9EE;
 }
 
+#pl_info #price-info .one-price .register a {
+  width: 100%;
+  border: none;
+  background-color: #002652;
+  color: white;
+  font-size: 18px;
+  line-height: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
 #pl_info #add-on-info .title {
   color: white;
   font-size: 18px;
@@ -158,7 +184,7 @@
 
 #pl_info #add-on-info .content .item {
   border: 1px solid rgba(0, 0, 0, 0.0666667);
-  height: 85px;
+  height: 55px;
   line-height: 19px;
 }
 
@@ -176,5 +202,18 @@
   text-align: center;
   display: block;
   padding: 10px 0;
+}
+
+#pl_modal_register .modal-dialog .modal-content .modal-body select[name='register_type'] {
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+}
+
+#pl_modal_register .modal-dialog .modal-content .modal-body input {
+  border-radius: 0;
+  margin-bottom: 5px;
 }
 

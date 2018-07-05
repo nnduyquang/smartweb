@@ -76,6 +76,9 @@
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><span>Giảm giá Adwords</span></div>
                     </div>
+                    <div class="register">
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="1" class="do-register">Đặt Mua</a>
+                    </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
                     <div class="title">Nâng cao</div>
@@ -95,6 +98,9 @@
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><span>Giảm giá Adwords</span></div>
+                    </div>
+                    <div class="register">
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="2" class="do-register">Đặt Mua</a>
                     </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
@@ -116,6 +122,9 @@
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><span>Giảm giá Adwords</span></div>
                     </div>
+                    <div class="register">
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="3" class="do-register">Đặt Mua</a>
+                    </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
                     <div class="title">Theo yêu cầu</div>
@@ -135,6 +144,9 @@
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><span>Giảm giá Adwords</span></div>
+                    </div>
+                    <div class="register">
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="4" class="do-register">Đặt Mua</a>
                     </div>
                 </div>
             </div>
@@ -166,3 +178,4 @@
         {{--</div>--}}
     </div>
 </div>
+@include('Frontsend.price_list.pl_modal_register')
