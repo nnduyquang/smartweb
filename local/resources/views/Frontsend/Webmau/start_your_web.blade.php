@@ -84,6 +84,7 @@
         padding: 6px 0 6px 0;
         color: white;
         transition: .3s;
+        font-weight: 600;
     }
 
     a.gui-yeu-cau:hover{

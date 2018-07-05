@@ -39,15 +39,16 @@
     <div class="container">
         <div class="row text-center pt-5">
             <div class="col-md-12" id="fe_home_features_top">
-                <p>MẪU THIẾT KẾ WEBSITE</p>
+                <p>GIẢI PHÁP THIẾT KẾ WEBSITE CHUYÊN NGHIỆP</p>
                 <hr>
             </div>
 
 
             <div class="col-md-12" id="fe_home_features_middle">
-                <p>Tập trung vào những gì thật sự quan trọng đó là sản phẩm dịch vụ của bạn, tạo các
-                trang web đẹp độc đáo với các trang đích và biểu ngữ có tác động mạnh mẽ đến khách hàng và
-                tăng tỷ lệ chốt đơn hàng cao.</p>
+                <p>Đáp ứng đầy đủ các tiêu chuẩn về SEO, hệ thống quản trị thân thiện, ngôn ngữ lập
+                    trình PHP cao cấp và bảo mật. Phong cách thiết kế hiện đại, cập nhật theo những xu hướng mới nhất
+                    . Mang lại một trải nghiệm tốt nhất cho cả người quản trị lẫn người xem,
+                    website được duy trì lâu dài và hoạt động mượt mà theo thời gian.</p>
             </div>
             <div class="col-md-12" id="fe_home_features_bottom"><a href="{{URL::asset('website-mau.html')}}"><p>HƠN 500+ MẪU WEB ĐẸP</p></a></div>
             <div class="col-md-12">
