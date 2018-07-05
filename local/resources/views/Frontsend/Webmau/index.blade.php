@@ -2,13 +2,15 @@
 @section('bodycontent')
     @include('Frontsend.Webmau.banner')
     @include('Frontsend.Webmau.Giaodientheonganh')
-    @include('Frontsend.Webmau.documentmorong')
+    {{--@include('Frontsend.Webmau.documentmorong')--}}
     @include('Frontsend.Webmau.giaodienmau')
+    @include('Frontsend.Webmau.start_your_web')
 
 
     <script>
         $(document).ready(function () {
             var owl = $('.owl-carousel');
+
 // Go to the next item
             $('.customNextBtn').click(function () {
                 owl.trigger('next.owl.carousel');
@@ -49,7 +51,8 @@
 
                     }
                 }
-            })
+            });
+
         });
     </script>
 @endsection

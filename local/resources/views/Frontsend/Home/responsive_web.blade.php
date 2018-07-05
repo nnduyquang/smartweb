@@ -8,6 +8,7 @@
         display: block;
         font-family: "Flaticon";
         line-height: 1;
+
     }
 
     .glyph-icon:before {

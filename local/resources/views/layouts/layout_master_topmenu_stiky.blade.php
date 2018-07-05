@@ -157,7 +157,7 @@
                  id="layout_master_topmenu_sticky_middle">
                 <ul>
 
-                    <li><a href="">GIỚI THIỆU</a></li>
+                    {{--<li><a href="">GIỚI THIỆU</a></li>--}}
                     <li><a href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
                     <li><a href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
                     <li><div class="position-relative" id="dv_content">

@@ -140,7 +140,7 @@
             </div>
         </div>
         <div id="add-on-info">
-            <div class="row no-gutters">
+            <div class="row no-gutters mb-5">
                 <div class="col-8">
                     <div class="title">DỊCH VỤ CỘNG THÊM</div>
                     <div class="content">
@@ -161,8 +161,8 @@
                 </div>
             </div>
         </div>
-        <div id="price-contact">
-            <p>CẦN BIẾT THÊM THÔNG TIN, QUÝ KHÁCH VUI LÒNG LIÊN HỆ: <span style="color: red;font-weight: bold">0914.348.131</span> – HOTLINE: <span style="color: red;font-weight: bold">0911.177.131</span></p>
-        </div>
+        {{--<div id="price-contact">--}}
+            {{--<p>CẦN BIẾT THÊM THÔNG TIN, QUÝ KHÁCH VUI LÒNG LIÊN HỆ: <span style="color: red;font-weight: bold">0914.348.131</span> – HOTLINE: <span style="color: red;font-weight: bold">0911.177.131</span></p>--}}
+        {{--</div>--}}
     </div>
 </div>

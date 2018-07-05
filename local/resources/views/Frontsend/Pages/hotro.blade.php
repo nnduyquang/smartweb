@@ -46,22 +46,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 mt-5 mb-5 text-left">
-                    <h3>We Listen to Our Customers</h3>
-                    <h5>More than 12 years of experience in the marketing business, developers of the most succesfull
-                        landing page theme on themeforest</h5>
-                    <p class="pt-3 pb-3">Off the Shelf is the result of many years of experience as marketers and web
-                        developers. We were fortunate enough to work on a vast variety of projects: from local
-                        businesses that needed to attract more customers to large scale PPC campaigns with thousands of
-                        visitors a day.</p>
+                    <h3>Chúng tôi luôn lắng nghe khách hàng.</h3>
+                    <h5>Hơn 5 năm kinh nghiệm trong kinh doanh tiếp thị trực tuyến, các chuyên gia phát triển của chủ đề thành công nhất về Laravel.</h5>
+                    <p class="pt-3 pb-3">Smartlinks là kết quả của nhiều năm kinh nghiệm làm marketing online
+                        và là nhà phát triển web chuyên nghiệp. Chúng tôi đã may mắn làm việc trên một loạt các dự án lớn:
+                        từ các doanh nghiệp địa phương cần thu hút nhiều khách hàng hơn đến các chiến dịch PPC quy mô lớn
+                        với hàng nghìn lượt khách mỗi ngày."</p>
                     <div class="d-flex">
-                        <img src="{{URL::asset('images/icon/nils-120x120.jpg')}}" alt="">
+                        <img src="{{URL::asset('images/icon/Untitled-1.png')}}" alt="">
                         <div>
-                            <p style="font-size: 21px">"Some of the best features in this theme were the direct result
-                                of
-                                feedback from our customers. Keep them coming!"</p>
+                            <p style="font-size: 21px">"Bạn muốn có một website chuyên nghiệp phục vụ cho công việc kinh doanh, phù hợp thị hiếu và xu hướng mới hiện nay, tương thích với mọi thiết bị cũng như trải nghiệm người dùng, 100%. Hãy liên hệ ngay với Smartlinks"</p>
                             <span>
-                                <p class="font-weight-boldl p-0 m-0">Nils H. <br>
-                                Web Designer at ShapingRain
+                                <p class="font-weight-boldl p-0 m-0">Quang Nguyễn. <br>
+                                Chuyên Gia Tư Vấn Và Thiết Kế, Smartlinks.
                                 </p>
                             </span>
                         </div>

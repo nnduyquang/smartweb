@@ -177,8 +177,8 @@
                         - Chuẩn Google pagespeed 90/100.
                     </p>
 
-                    <button class="first">VIEW A FEATURES</button>
-                    <button class="last">START YOUR WEBSITE</button>
+                    <button class="first">XEM CHI TIẾT</button>
+                    <button class="last">LIÊN HỆ NGAY</button>
 
                 </div>
             </div>

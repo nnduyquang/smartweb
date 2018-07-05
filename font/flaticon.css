@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 04/07/2018 04:25
+  	Creation date: 05/07/2018 08:48
   	*/
 
 @font-face {
@@ -29,13 +29,52 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-seo-performance-marketing-graphic:before { content: "\f100"; }
-.flaticon-support:before { content: "\f101"; }
-.flaticon-management:before { content: "\f102"; }
-.flaticon-pointing-up:before { content: "\f103"; }
-.flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet:before { content: "\f104"; }
-.flaticon-full-screen:before { content: "\f105"; }
-.flaticon-touch-of-one-finger-of-solid-black-hand-symbol:before { content: "\f106"; }
-.flaticon-server-1:before { content: "\f107"; }
-.flaticon-cloud:before { content: "\f108"; }
-.flaticon-group:before { content: "\f109"; }
+.flaticon-gym-1:before { content: "\f100"; }
+.flaticon-gym:before { content: "\f101"; }
+.flaticon-wellness:before { content: "\f102"; }
+.flaticon-arm-muscles-silhouette:before { content: "\f103"; }
+.flaticon-exercise:before { content: "\f104"; }
+.flaticon-healthy-lifestyle-logo:before { content: "\f105"; }
+.flaticon-hair:before { content: "\f106"; }
+.flaticon-female-hair-shape-and-face-silhouette:before { content: "\f107"; }
+.flaticon-beauty:before { content: "\f108"; }
+.flaticon-woman-head-silhouette-with-a-flower-in-a-spa:before { content: "\f109"; }
+.flaticon-hat:before { content: "\f10a"; }
+.flaticon-high-heel:before { content: "\f10b"; }
+.flaticon-clean:before { content: "\f10c"; }
+.flaticon-work-station:before { content: "\f10d"; }
+.flaticon-hanger:before { content: "\f10e"; }
+.flaticon-plug:before { content: "\f10f"; }
+.flaticon-office-chair:before { content: "\f110"; }
+.flaticon-kitchen:before { content: "\f111"; }
+.flaticon-bedside-table:before { content: "\f112"; }
+.flaticon-plumber-1:before { content: "\f113"; }
+.flaticon-plumber:before { content: "\f114"; }
+.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f115"; }
+.flaticon-call-center-worker-with-headset:before { content: "\f116"; }
+.flaticon-computer:before { content: "\f117"; }
+.flaticon-tablet:before { content: "\f118"; }
+.flaticon-food:before { content: "\f119"; }
+.flaticon-bag:before { content: "\f11a"; }
+.flaticon-shopping-bag:before { content: "\f11b"; }
+.flaticon-pills:before { content: "\f11c"; }
+.flaticon-medicine:before { content: "\f11d"; }
+.flaticon-cream:before { content: "\f11e"; }
+.flaticon-smiling-baby:before { content: "\f11f"; }
+.flaticon-baby-boy:before { content: "\f120"; }
+.flaticon-cityscape:before { content: "\f121"; }
+.flaticon-apartments:before { content: "\f122"; }
+.flaticon-cake:before { content: "\f123"; }
+.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f124"; }
+.flaticon-dish:before { content: "\f125"; }
+.flaticon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before { content: "\f126"; }
+.flaticon-seo-performance-marketing-graphic:before { content: "\f127"; }
+.flaticon-support:before { content: "\f128"; }
+.flaticon-management:before { content: "\f129"; }
+.flaticon-pointing-up:before { content: "\f12a"; }
+.flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet:before { content: "\f12b"; }
+.flaticon-full-screen:before { content: "\f12c"; }
+.flaticon-touch-of-one-finger-of-solid-black-hand-symbol:before { content: "\f12d"; }
+.flaticon-server-1:before { content: "\f12e"; }
+.flaticon-cloud:before { content: "\f12f"; }
+.flaticon-group:before { content: "\f130"; }

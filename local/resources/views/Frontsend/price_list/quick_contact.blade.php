@@ -1,4 +1,7 @@
 <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
     div#fe_page_linebreak {
         background-image: url(images/bg/computer_4.jpg);
         background-attachment: fixed;
@@ -9,9 +12,7 @@
     }
 
     div#fe_page_linebreak .col-md-12 {
-        /*border: 2px double #1b1e21;*/
-        /*background-color: rgba(00, 00, 00, 0.2);*/
-        /*border-radius: 3px;*/
+
     }
 
     div#fe_page_linebreak p {
@@ -69,9 +70,14 @@
     <div style="width: 100%;height: 100%;background-color:rgba(00,00,00,0.3);">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center pt-4 pb-3 mt-5 mb-5">
+                <div class="col-md-12 text-center pt-4 pb-5 mt-5 mb-5">
 
                     <div class="row" id="hotro_phone">
+
+                        <div class="col-md-12">
+                            <p style="font-family: 'Dancing Script', cursive;font-size: 26px">
+                                Cần biết thông tin, Quý khách vui lòng liên hệ:</p>
+                        </div>
 
                         <div class="col-md-4 text-left mb-2">
                             <button id="btn_kythuat"><i class="fas fa-phone"></i> Ms Yến : 0911.177.131</button>

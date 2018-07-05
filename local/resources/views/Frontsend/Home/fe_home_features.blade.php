@@ -45,14 +45,14 @@
 
 
             <div class="col-md-12" id="fe_home_features_middle">
-                <p>Tập trung vào những gì thật sự quan trọng đó là sản phẩm dịch vụ của bạn. tạo các
+                <p>Tập trung vào những gì thật sự quan trọng đó là sản phẩm dịch vụ của bạn, tạo các
                 trang web đẹp độc đáo với các trang đích và biểu ngữ có tác động mạnh mẽ đến khách hàng và
                 tăng tỷ lệ chốt đơn hàng cao.</p>
             </div>
-            <div class="col-md-12" id="fe_home_features_bottom"><a href=""><p>XEM KHO WEBSITE MẪU</p></a></div>
+            <div class="col-md-12" id="fe_home_features_bottom"><a href="{{URL::asset('website-mau.html')}}"><p>HƠN 500+ MẪU WEB ĐẸP</p></a></div>
             <div class="col-md-12">
-                <img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/09/image_browser_websites.jpg" alt=""
-                style="width: 100%;height: auto;">
+                <a href="{{URL::asset('website-mau.html')}}"><img src="http://demos.shapingrain.com/offtheshelfwp/wp-content/uploads/sites/9/2015/09/image_browser_websites.jpg" alt=""
+                                                                  style="width: 100%;height: auto;"></a>
             </div>
         </div>
     </div>

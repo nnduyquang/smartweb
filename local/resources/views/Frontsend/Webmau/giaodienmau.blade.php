@@ -18,6 +18,9 @@
         font-family: 'Yanone Kaffeesatz', sans-serif;
         color: #868383;
     }
+    div#fe_wm_giaodienmau p ul li{
+       display: table-cell;
+    }
 
     div#fe_wm_giaodienmau button.btn-xemdemo{
         font-size: 16px;
@@ -69,7 +72,15 @@
             <div class="col-md-12 border-bottom border-light mb-4">
                 <h4><span>WEBSITE</span> GIAO DIỆN MẪU</h4>
             </div>
-            <div class="col-md-12">
+
+            {{--carosel template theo ngành nghề--}}
+
+            @include('Frontsend.Webmau.slider')
+
+            {{--end carosel template theo ngành nghề--}}
+
+
+            <div class="col-md-12 mt-3">
                 <p>Chúng tôi tạo ra giao diện mới và tùy biến hình ảnh màu sắc theo ý kiến khách hàng.</p>
             </div>
 

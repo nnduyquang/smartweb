@@ -24,14 +24,14 @@
 <div class="container-fluid pb-5" id="customer_services">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center pb-5">
                 <h3>CHÚNG TÔI LẮNG NGHE KHÁCH HÀNG</h3>
                 <p>
                     Website là một sản phẩm tuyệt vời đi kèm với hỗ trợ khách hàng để phù hợp, cho dù bạn có một
-                    câu hỏi, một mối quan tâm hoặc cần hổ trợ, chúng tôi đối xử với bạn như một khách hàng có giá
-                    trị và tôi tin sẽ giúp bạn nữa. Trong nghành Digital Marketing.
+                    câu hỏi, một mối quan tâm hoặc cần hỗ trợ, chúng tôi đối xử với bạn như một khách hàng có giá
+                    trị và tôi tin sẽ giúp bạn hơn nữa trong ngành Digital Marketing.
                 </p>
-                <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 80%;height: auto;">
+                <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 45%;height: auto;">
             </div>
         </div>
     </div>

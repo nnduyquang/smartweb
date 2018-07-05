@@ -32,8 +32,8 @@
 
     div#layout_master_footer ul li a:hover {
         text-decoration: none;
-        padding-left: 15px;
-        color: white;
+        padding-left: 5px;
+        color: #09a4fd;
     }
 
     div#layout_master_footer ul li button{
@@ -85,7 +85,7 @@
                     <li class="pb-3"><img src="images/logo/logo-footer.png" alt="" style="width: 100%;height: auto;">
                     </li>
                     <li>Khách hàng trao niềm tin chúng tôi tạo nên thương hiệu.</li>
-                    <li>Khách hàng là giá trị là tài sản quý giá để dồng hành cùng phát triển.
+                    <li>Khách hàng là giá trị là tài sản quý giá để đồng hành cùng phát triển.
                     </li>
 
                 </ul>
@@ -93,10 +93,10 @@
             <div class="col-md-3 col-sm-6 col-12">
                 <ul class="">
                     <li>THÔNG TIN VỀ CHÚNG TÔI</li>
-                    <li>ĐỊA CHỈ : 25 Hoàng Diệu, Phường 12, Quận 4</li>
-                    <li>Email support : Suport24.Smartweb@gmail.com</li>
-                    <li>HOTLINE : 0914.348.131</li>
-                    <li>SUPPORT : (028) 66830091</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 25 Hoàng Diệu, Phường 12, Quận 4, TPHCM.</li>
+                    <li><i class="fas fa-envelope"></i> Suport24.Smartweb@gmail.com</li>
+                    <li><i class="fas fa-headphones"></i> 0914.348.131</li>
+                    <li><i class="fas fa-phone-square"></i> (028) 66830091</li>
                 </ul>
             </div>
 
@@ -136,7 +136,7 @@
                         <a href=""> Google Display.</a>
                     </li>
                     <li>
-                        <a href=""> Google Re Marketing.</a>
+                        <a href=""> Google Re-Marketing.</a>
                     </li>
                     <li>
                         <a href="">  Facebook Ads.</a>
@@ -184,7 +184,7 @@
             <div class="col-md-12 pt-2 pb-2" style="font-size: 14px;">
                 Copyright © 2018 Smartlinks.vn . All Rights Reserved. <br>
 
-                Công ty Smartlinks - Giấy phép kinh doanh số: 0312788587 cấp ngày 21/05/2014 bởi Sở Kế Hoạch và
+                Công Ty TNHH Truyền Thông và Đầu Tư Smartlinks - Giấy phép kinh doanh số: 0312788587 cấp ngày 21/05/2014 bởi Sở Kế Hoạch và
                 Đầu Tư Tp. Hồ Chí Minh
             </div>
         </div>

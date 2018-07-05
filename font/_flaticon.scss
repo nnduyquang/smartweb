@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 04/07/2018 04:25
+    Creation date: 05/07/2018 08:48
     */
 
     @font-face {
@@ -36,24 +36,102 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-seo-performance-marketing-graphic:before { content: "\f100"; }
-.flaticon-support:before { content: "\f101"; }
-.flaticon-management:before { content: "\f102"; }
-.flaticon-pointing-up:before { content: "\f103"; }
-.flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet:before { content: "\f104"; }
-.flaticon-full-screen:before { content: "\f105"; }
-.flaticon-touch-of-one-finger-of-solid-black-hand-symbol:before { content: "\f106"; }
-.flaticon-server-1:before { content: "\f107"; }
-.flaticon-cloud:before { content: "\f108"; }
-.flaticon-group:before { content: "\f109"; }
+    .flaticon-gym-1:before { content: "\f100"; }
+.flaticon-gym:before { content: "\f101"; }
+.flaticon-wellness:before { content: "\f102"; }
+.flaticon-arm-muscles-silhouette:before { content: "\f103"; }
+.flaticon-exercise:before { content: "\f104"; }
+.flaticon-healthy-lifestyle-logo:before { content: "\f105"; }
+.flaticon-hair:before { content: "\f106"; }
+.flaticon-female-hair-shape-and-face-silhouette:before { content: "\f107"; }
+.flaticon-beauty:before { content: "\f108"; }
+.flaticon-woman-head-silhouette-with-a-flower-in-a-spa:before { content: "\f109"; }
+.flaticon-hat:before { content: "\f10a"; }
+.flaticon-high-heel:before { content: "\f10b"; }
+.flaticon-clean:before { content: "\f10c"; }
+.flaticon-work-station:before { content: "\f10d"; }
+.flaticon-hanger:before { content: "\f10e"; }
+.flaticon-plug:before { content: "\f10f"; }
+.flaticon-office-chair:before { content: "\f110"; }
+.flaticon-kitchen:before { content: "\f111"; }
+.flaticon-bedside-table:before { content: "\f112"; }
+.flaticon-plumber-1:before { content: "\f113"; }
+.flaticon-plumber:before { content: "\f114"; }
+.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f115"; }
+.flaticon-call-center-worker-with-headset:before { content: "\f116"; }
+.flaticon-computer:before { content: "\f117"; }
+.flaticon-tablet:before { content: "\f118"; }
+.flaticon-food:before { content: "\f119"; }
+.flaticon-bag:before { content: "\f11a"; }
+.flaticon-shopping-bag:before { content: "\f11b"; }
+.flaticon-pills:before { content: "\f11c"; }
+.flaticon-medicine:before { content: "\f11d"; }
+.flaticon-cream:before { content: "\f11e"; }
+.flaticon-smiling-baby:before { content: "\f11f"; }
+.flaticon-baby-boy:before { content: "\f120"; }
+.flaticon-cityscape:before { content: "\f121"; }
+.flaticon-apartments:before { content: "\f122"; }
+.flaticon-cake:before { content: "\f123"; }
+.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f124"; }
+.flaticon-dish:before { content: "\f125"; }
+.flaticon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before { content: "\f126"; }
+.flaticon-seo-performance-marketing-graphic:before { content: "\f127"; }
+.flaticon-support:before { content: "\f128"; }
+.flaticon-management:before { content: "\f129"; }
+.flaticon-pointing-up:before { content: "\f12a"; }
+.flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet:before { content: "\f12b"; }
+.flaticon-full-screen:before { content: "\f12c"; }
+.flaticon-touch-of-one-finger-of-solid-black-hand-symbol:before { content: "\f12d"; }
+.flaticon-server-1:before { content: "\f12e"; }
+.flaticon-cloud:before { content: "\f12f"; }
+.flaticon-group:before { content: "\f130"; }
     
-    $font-Flaticon-seo-performance-marketing-graphic: "\f100";
-    $font-Flaticon-support: "\f101";
-    $font-Flaticon-management: "\f102";
-    $font-Flaticon-pointing-up: "\f103";
-    $font-Flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet: "\f104";
-    $font-Flaticon-full-screen: "\f105";
-    $font-Flaticon-touch-of-one-finger-of-solid-black-hand-symbol: "\f106";
-    $font-Flaticon-server-1: "\f107";
-    $font-Flaticon-cloud: "\f108";
-    $font-Flaticon-group: "\f109";
+    $font-Flaticon-gym-1: "\f100";
+    $font-Flaticon-gym: "\f101";
+    $font-Flaticon-wellness: "\f102";
+    $font-Flaticon-arm-muscles-silhouette: "\f103";
+    $font-Flaticon-exercise: "\f104";
+    $font-Flaticon-healthy-lifestyle-logo: "\f105";
+    $font-Flaticon-hair: "\f106";
+    $font-Flaticon-female-hair-shape-and-face-silhouette: "\f107";
+    $font-Flaticon-beauty: "\f108";
+    $font-Flaticon-woman-head-silhouette-with-a-flower-in-a-spa: "\f109";
+    $font-Flaticon-hat: "\f10a";
+    $font-Flaticon-high-heel: "\f10b";
+    $font-Flaticon-clean: "\f10c";
+    $font-Flaticon-work-station: "\f10d";
+    $font-Flaticon-hanger: "\f10e";
+    $font-Flaticon-plug: "\f10f";
+    $font-Flaticon-office-chair: "\f110";
+    $font-Flaticon-kitchen: "\f111";
+    $font-Flaticon-bedside-table: "\f112";
+    $font-Flaticon-plumber-1: "\f113";
+    $font-Flaticon-plumber: "\f114";
+    $font-Flaticon-covered-food-tray-on-a-hand-of-hotel-room-service: "\f115";
+    $font-Flaticon-call-center-worker-with-headset: "\f116";
+    $font-Flaticon-computer: "\f117";
+    $font-Flaticon-tablet: "\f118";
+    $font-Flaticon-food: "\f119";
+    $font-Flaticon-bag: "\f11a";
+    $font-Flaticon-shopping-bag: "\f11b";
+    $font-Flaticon-pills: "\f11c";
+    $font-Flaticon-medicine: "\f11d";
+    $font-Flaticon-cream: "\f11e";
+    $font-Flaticon-smiling-baby: "\f11f";
+    $font-Flaticon-baby-boy: "\f120";
+    $font-Flaticon-cityscape: "\f121";
+    $font-Flaticon-apartments: "\f122";
+    $font-Flaticon-cake: "\f123";
+    $font-Flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view: "\f124";
+    $font-Flaticon-dish: "\f125";
+    $font-Flaticon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle: "\f126";
+    $font-Flaticon-seo-performance-marketing-graphic: "\f127";
+    $font-Flaticon-support: "\f128";
+    $font-Flaticon-management: "\f129";
+    $font-Flaticon-pointing-up: "\f12a";
+    $font-Flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet: "\f12b";
+    $font-Flaticon-full-screen: "\f12c";
+    $font-Flaticon-touch-of-one-finger-of-solid-black-hand-symbol: "\f12d";
+    $font-Flaticon-server-1: "\f12e";
+    $font-Flaticon-cloud: "\f12f";
+    $font-Flaticon-group: "\f130";

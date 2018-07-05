@@ -45,27 +45,27 @@
         <div class="col-md-4 text-center">
             <img src="{{ URL::asset('images/icon/icon_setup.png') }}" alt="">
             <h5 class="mt-4">THU NHẬP <br> THÔNG TIN VÀ TƯ VẤN</h5>
-            <p>Chúng tôi lấy ý kiến khách hàng và tư vấn website tính năng phù hợp với doang nghiệp.</p>
+            <p>Chúng tôi lấy ý kiến khách hàng và tư vấn website tính năng phù hợp với doanh nghiệp.</p>
         </div>
         <div class="col-md-4 text-center">
             <img src="{{ URL::asset('images/icon/icon_visualedit.png') }}" alt="">
             <h5 class="mt-4">LỰA CHỌN <br> MẪU GIAO DIỆN</h5>
-            <p>Lựa chọn giao diện tùy biến màu sắc theo đật tính sản phẩm hoặc theo yêu cầu khách hàng. </p>
+            <p>Lựa chọn giao diện tùy biến màu sắc theo đặc tính sản phẩm hoặc theo yêu cầu khách hàng. </p>
         </div>
         <div class="col-md-4 text-center">
             <img src="{{ URL::asset('images/icon/icon_customize.png') }}" alt="">
             <h5 class="mt-4">XÂY DỰNG WEBSITE <br> THEO YÊU CẦU ĐÃ THỐNG NHẤT</h5>
-            <p>Bàn giao bộ phẩn kỹ thuật triển khai website dựa trên yêu cầu trao đổi với khách hàng.</p>
+            <p>Bàn giao bộ phận kỹ thuật triển khai website dựa trên yêu cầu trao đổi với khách hàng.</p>
         </div>
         <div class="col-md-4 text-center">
             <img src="{{ URL::asset('images/icon/checked.png') }}" alt="">
             <h5 class="mt-4">HOÀN TẤT KIỂM TRA ĐẠT CHUẨN GOOGLE</h5>
-            <p>Đội ngũ tester kiểm cha chất lượng Website, xem xét thông tin cần sửa đổi cập nhập. </p>
+            <p>Đội ngũ tester kiểm tra chất lượng Website, xem xét thông tin cần sửa đổi cập nhật. </p>
         </div>
         <div class="col-md-4 text-center">
             <img src="{{ URL::asset('images/icon/icon.png') }}" alt="">
-            <h5 class="mt-4">BÀN GIAO VÀ HƯỚNG DẨN <br> SỬ DỤNG</h5>
-            <p>Bàn giao khách hàng và hướng dẩn sử dụng các tính năng website.</p>
+            <h5 class="mt-4">BÀN GIAO VÀ HƯỚNG DẪN <br> SỬ DỤNG</h5>
+            <p>Bàn giao khách hàng và hướng dẫn sử dụng các tính năng website.</p>
         </div>
     </div>
 </div>

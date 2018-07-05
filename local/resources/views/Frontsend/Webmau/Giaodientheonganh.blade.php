@@ -53,8 +53,28 @@
         overflow: hidden;
     }
 
+    .owl-item > a:hover{
+       text-decoration: none;
+    }
+
     .nav-button .customPrevBtn {
     }
+
+    div#webmau_price_list a{
+        font-size: 20px;
+        background-color: #7bb233;
+        color: white;
+        padding: 14px 20px 12px 20px;
+        border-radius: 3px;
+        transition: .3s;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+    div#webmau_price_list a:hover{
+        text-decoration: none;
+        background-color: #00a6da;
+    }
+
 </style>
 <div class="container-fluid" id="slider_mautheonghanghnghe">
     <div class="container">
@@ -68,46 +88,73 @@
                 <div class="owl-carousel owl-theme owl-loaded position-relative">
                     <div class="owl-stage-outer ">
                         <div class="owl-stage">
+
                             <div class="owl-item text-center">
+
                                 <div style="">
+                                    <a href="#fe_wm_giaodienmau">
                                     <img src="{{URL::asset('images/Banner/web1.jpg')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
+                                    </a>
                                 </div>
+                                <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB THỜI TRANG</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </a>
                             </div>
+
                             <div class="owl-item text-center">
                                 <div style="">
+                                    <a href="#fe_wm_giaodienmau">
                                     <img src="{{URL::asset('images/Banner/loud-business-html5.jpg')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
+                                    </a>
                                 </div>
+                                <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB BĐS</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </a>
                             </div>
+
                             <div class="owl-item text-center">
                                 <div style="">
+                                    <a href="#fe_wm_giaodienmau">
                                     <img src="{{URL::asset('images/Banner/images.jpg')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
+                                    </a>
                                 </div>
+                                <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB TMĐT</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </a>
                             </div>
+
                             <div class="owl-item text-center">
                                 <div style="">
+                                    <a href="#fe_wm_giaodienmau">
                                     <img src="{{URL::asset('images/Banner/images2.jpg')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
+                                    </a>
                                 </div>
+                                <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB NỘI THẤT</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </a>
                             </div>
+
                             <div class="owl-item text-center">
                                 <div>
+                                    <a href="#fe_wm_giaodienmau">
                                     <img src="{{URL::asset('images/Banner/responsive2.jpg')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
+                                    </a>
                                 </div>
+                                <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB DỊCH VỤ</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </a>
                             </div>
+
                         </div>
 
                     </div>
@@ -119,6 +166,10 @@
                 </div>
 
 
+            </div>
+
+            <div class="col-md-12 text-center mt-2 mb-2" id="webmau_price_list">
+                <a href="{{URL::asset('bang-gia.html')}}">BẢNG GIÁ WEBSITE</a>
             </div>
 
         </div>
