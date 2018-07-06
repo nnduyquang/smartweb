@@ -14,10 +14,11 @@
 
         div#fe_p_wecareourcustomer h5 {
             font-weight: normal;
-            font-size: 20px;
+            font-size: 22px;
             color: #1b1e21;
             padding-top: 20px;
             padding-bottom: 10px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
 
         }
 
@@ -47,7 +48,10 @@
             <div class="row">
                 <div class="col-md-5 mt-5 mb-5 text-left">
                     <h3>Chúng tôi luôn lắng nghe khách hàng.</h3>
-                    <h5>Hơn 5 năm kinh nghiệm trong kinh doanh tiếp thị trực tuyến, các chuyên gia phát triển của chủ đề thành công nhất về Laravel.</h5>
+                    <h5>Với hơn 5 năm kinh nghiệm trong việc thiết kế website,
+                        chúng tôi tự tin sẽ mang đến cho doanh nghiệp của bạn một website chuyên nghiệp và hiệu quả.
+                        Chúng tôi luôn làm việc với sự sáng tạo và sự tập trung cao nhất cho mỗi dự án,
+                        mỗi dự án đối với chúng tôi là một tác phẩm.</h5>
                     <p class="pt-3 pb-3">Smartlinks là kết quả của nhiều năm kinh nghiệm làm marketing online
                         và là nhà phát triển web chuyên nghiệp. Chúng tôi đã may mắn làm việc trên một loạt các dự án lớn:
                         từ các doanh nghiệp địa phương cần thu hút nhiều khách hàng hơn đến các chiến dịch PPC quy mô lớn

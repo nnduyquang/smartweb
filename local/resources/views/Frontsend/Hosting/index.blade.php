@@ -199,7 +199,7 @@
         <div class="container">
             <div class="row pt-3 pb-4">
 
-                <div class="col-md-4 text-center hosting-partner align-items-center">
+                <div class="wow fadeIn col-md-4 text-center hosting-partner align-items-center" data-wow-duration="2s">
                     <div class="glyph-icon flaticon-cloud"></div>
 
                     <H4>HOSTING LÀ GÌ?</H4>
@@ -209,7 +209,7 @@
 
                 </div>
 
-                <div class="col-md-4 text-center hosting-partner align-items-center">
+                <div class="wow fadeIn col-md-4 text-center hosting-partner align-items-center" data-wow-duration="2s">
                     <div class="glyph-icon flaticon-group"></div>
 
                     <H4>QUẢN LÝ TỐT</H4>
@@ -218,7 +218,7 @@
 
                 </div>
 
-                <div class="col-md-4 text-center hosting-partner align-items-center">
+                <div class="wow fadeIn col-md-4 text-center hosting-partner align-items-center" data-wow-duration="2s">
                     <div class="glyph-icon flaticon-touch-of-one-finger-of-solid-black-hand-symbol"></div>
 
                     <H4>DỄ MỞ RỘNG VÀ TƯƠNG TÁC</H4>
@@ -241,7 +241,7 @@
             </div>
 
             <div class="col-md-4 p-0">
-                <div class="bangia-hosting text-center">
+                <div class="bangia-hosting text-center wow zoomIn">
                     <h4>GÓI KHỞI NGHIỆP</h4>
 
                     <span class="old-price">597.600 VNĐ </span><br>
@@ -269,8 +269,8 @@
 
                 </div>
             </div>
-            <div class="col-md-4 p-0">
-                <div class="bangia-hosting-hot pt-5">
+            <div class="col-md-4 p-0 ">
+                <div class="bangia-hosting-hot pt-5  wow zoomIn">
                     <h4>HOST THÔNG DỤNG</h4>
 
                     <span class="old-price">597.600 VNĐ </span><br>
@@ -298,7 +298,7 @@
                 </div>
             </div>
             <div class="col-md-4 p-0">
-                <div class="bangia-hosting text-center">
+                <div class="bangia-hosting text-center  wow zoomIn">
                     <h4>GÓI KINH DOANH</h4>
 
                     <span class="old-price">2.597.600 VNĐ </span><br>

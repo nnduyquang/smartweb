@@ -36,6 +36,12 @@
         transform: translate(-50%, 0%);
         bottom: -10px;
     }
+
+    @media only screen and (max-width: 770px) {
+
+
+    }
+
 </style>
 <div class="container-fluid" id="webmau_banner">
     <div class="container">
@@ -46,7 +52,7 @@
                 <p>Với đội ngũ hỗ trợ khách hàng nhiệt huyết, cùng
                 gỡ rối các vấn đề gập phải của doanh nghiệp khi đồng hành với chúng tôi.</p>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{URL::asset('images/Banner/service-hotline.a10cb6a3.png')}}" alt=""
+                    <img class="" src="{{URL::asset('images/Banner/service-hotline.a10cb6a3.png')}}" alt=""
                     style="width: 38px;height: auto;">
                     <h2 class="pl-2"> Support 24/7 : 0914.348.131</h2>
                 </div>

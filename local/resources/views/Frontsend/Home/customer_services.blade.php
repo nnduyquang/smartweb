@@ -17,7 +17,7 @@
 
     div#customer_services p{
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Encode Sans Condensed', sans-serif;
     }
 </style>
@@ -31,7 +31,7 @@
                     câu hỏi, một mối quan tâm hoặc cần hỗ trợ, chúng tôi đối xử với bạn như một khách hàng có giá
                     trị và tôi tin sẽ giúp bạn hơn nữa trong ngành Digital Marketing.
                 </p>
-                <img src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 45%;height: auto;">
+                <img class="wow bounceIn" src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 45%;height: auto;">
             </div>
         </div>
     </div>

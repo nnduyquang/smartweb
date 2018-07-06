@@ -75,7 +75,13 @@
     }
 
     @media only screen and (max-width: 770px) {
+
+        .h-social-nw{
+
+        }
+
         img.logo {
+            padding-top: 10px;
             width: 100%;
             height: auto;
         }
@@ -86,9 +92,8 @@
 
         div#mobi_menu button {
             border: transparent;
-            padding: 3px 10px;
-            background-color: #696969;
-            color: white;
+            background-color: transparent;
+            color: #696969;
         }
         
         div#smart_web_menu{
@@ -103,6 +108,14 @@
         top: 100%;
     }
 
+   div#dichvu_khac:hover  div#dv_content{
+       background-color: #05a3d4;
+    }
+    
+    div#dv_content{
+        /*background-color: #05a3d4;*/
+    }
+
     div#dichvu_khac{
         text-align: center;
         margin-top: 1px;
@@ -113,26 +126,30 @@
         transition: .3s;
         color: white;
         top: 0%;
+        background-color: #05a3d4;
         transition: .3s;
     }
 
     div#dichvu_khac ul li {
        margin-bottom: 1px;
+        display: block;
     }
 
     div#dichvu_khac ul li a{
         text-align: center;
         line-height: 30px;
         color: white;
-        width: 110px;
+        display: block;
+        min-width: 200px;
         background-color: #05a3d4;
+        border-bottom: 1px solid white;
     }
 
     div#dichvu_khac ul li a:hover{
         padding-left: 13px;
     }
 
-    div#dichvu_khac ul li a:hover div#dv_content > a{
+    div#dichvu_khac ul li a:hover:hover div#dv_content{
         background-color: #05a3d4;
     }
 
@@ -158,30 +175,32 @@
                 <ul>
 
                     {{--<li><a href="">GIỚI THIỆU</a></li>--}}
+                    <li><a href="{{url('/')}}">TRANG CHỦ</a></li>
                     <li><a href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
                     <li><a href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
                     <li><div class="position-relative" id="dv_content">
                             <a href="">DỊCH VỤ KHÁC</a>
                             <div class="position-absolute" id="dichvu_khac">
                                 <ul>
-                                    <li><a href="{{url('hosting.html')}}" class="dichvu-khac">HOSTING</a></li>
-                                    <li><a href="" class="dichvu-khac">DOMAIN</a></li>
+                                    <li><a href="{{url('hosting.html')}}" class="dichvu-khac">HOSTING & TÊN MIỀN</a></li>
+                                    <li><a href="" class="dichvu-khac">DỊCH VỤ QUẢN TRỊ WEB</a></li>
+                                    <li><a href="" class="dichvu-khac">DỊCH VỤ DIGITAL MARKETING</a></li>
+                                    <li><a href="" class="dichvu-khac">DỊCH VỤ EMAIL DOANH NGHIỆP</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="">DIGITAL MARKETING</a></li>
                     <li><a href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
                 </ul>
             </div>
-            <div class="col-md-2 p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-sm-between"
+            <div class="col-md-2 p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-between"
                  id="layout_master_topmenu_sticky_right">
                 <div id="mobi_menu" class="d-lg-none d-md-none d-sm-block">
                     <button href=""><i class="fas fa-bars"></i> MENU</button>
                 </div>
 
-                <ul class="h-social-nw">
+                <ul class="h-social-nw pt-1">
                     <li class="d-lg-none d-md-none d-sm-none d-none"><a href=""><i class="fas fa-shopping-cart"></i></a></li>
                     <li><a href=""><i class="fas fa-search"></i></a></li>
                     <li><a href=""><i class="fab fa-facebook-f border-left pl-2"></i></a></li>
@@ -192,3 +211,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('.dichvu-khac').hover()
+    })
+</script>

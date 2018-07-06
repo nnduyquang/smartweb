@@ -7,12 +7,12 @@
 
     div#slogan p{
         color: white;
-        font-size: 20px;
+        font-size: 19px;
     }
 
     div#slogan span{
         color: white;
-        font-size: 16px;
+        font-size: 20px;
     }
 </style>
 
@@ -20,8 +20,8 @@
     <div class="container">
         <div class="row pt-5 pb-5">
             <div class="col-12 text-center">
-                <h3 class="pb-3 text-white">CHẤT LƯỢNG - HIỆU QUẢ</h3>
-                <img src="{{ URL::asset('images/icon/symbol_quote.png') }}" alt="">
+                <h3 class="pb-3 text-white">CHẤT LƯỢNG & HIỆU QUẢ</h3>
+                <img class="wow rollIn" src="{{ URL::asset('images/icon/symbol_quote.png') }}" alt="">
             </div>
             <div class="col-12 pt-2 pb-2 text-center">
                 <p>"Chúng tôi luôn nghiên cứu chuyên sâu về tập khách hàng của doanh nghiệp,
@@ -33,7 +33,7 @@
 
 
                 <span>
-                        <p style="font-size: 17px;font-weight: 600;padding: 0;margin:0">
+                        <p style="font-size: 20px;font-weight: 600;padding: 0;margin:0">
                             SMARTLINKS Website
                         </p>
                     </span>

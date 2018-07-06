@@ -15,7 +15,7 @@
     }
     div#create_website_you_want p{
         position: relative;
-        font-size: 22px;
+        font-size: 20px;
         font-family: 'Encode Sans Condensed', sans-serif;
 
     }
@@ -52,7 +52,7 @@
                 ích ưu việt.</p>
             </div>
             <div class="col-md-12" style="z-index: 22">
-                <img  src="{{ URL::asset('images/Banner/desk_features_new.png') }}" alt="" style="width: 100%;height: auto;z-index: 12">
+                <img class="wow zoomIn" src="{{ URL::asset('images/Banner/desk_features_new.png') }}" alt="" style="width: 100%;height: auto;z-index: 12">
             </div>
         </div>
     </div>
