@@ -8,6 +8,9 @@ mix.styles([
     //Fancy chưa sử dụng
     //'bower_components/fancybox/dist/jquery.fancybox.min.js',
 ], '../js/core.common.js')
+    .styles([
+        'bower_components/wow/dist/wow.min.js',
+    ], '../js/core.frontend.js')
 
 //CSS DÙNG CHUNG CHO FRONTEND VÀ BACKEND
     .styles([
@@ -16,6 +19,9 @@ mix.styles([
         //'bower_components/Ionicons/css/ionicons.min.css',
         //'bower_components/fancybox/dist/jquery.fancybox.min.css',
     ], '../css/core.common.css')
+    .styles([
+        'bower_components/animate.css/animate.min.css'
+    ], '../css/core.frontend.css')
 
     .sass('resources/assets/sass/frontend.scss', '../css/frontend.css')
 

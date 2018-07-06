@@ -25,6 +25,7 @@
     "ckeditor": "^4.8.0",
     "animate.css": "^3.5.2",
     "jquery.marquee": "jQuery.Marquee#^1.5.0",
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "wow": "^1.1.2"
   }
 }
