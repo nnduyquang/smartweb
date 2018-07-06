@@ -1,6 +1,7 @@
 <style>
     div#webmau_banner {
-        background-image: url('images/bg/random_tech_wallpaper.png');
+        /*background-image: url('images/bg/random_tech_wallpaper.png');*/
+        background-image: url('images/bg/slider-2-1.jpg');
         background-attachment: fixed;
         background-position: center top;
         -webkit-background-size: cover;
