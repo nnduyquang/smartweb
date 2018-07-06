@@ -4,7 +4,6 @@
     }
 
     .glyph-icon {
-        padding: 10px;
         display: block;
         font-family: "Flaticon";
         line-height: 1;
@@ -30,17 +29,18 @@
             <img src="{{URL::asset('images/Banner/Responsive-Example.png')}}" alt=""
                  style="width: 100%;height: auto;">
         </div>
-        <div class="col-md-4">
-            <h3 class="justify-content-center text-center" style="padding: auto">
+        <div class="col-md-4 pt-3">
+            <h3 class="justify-content-center text-left" style="padding: auto">
                 ƯU ĐIỂM WEBSITE DO SMARTLINKS THIẾT KẾ
             </h3>
 
-            <p>
+            <p class="p-0" style="">
                 Hơn 500 doanh nghiệp đã trải nghiệm và tin dùng.
             </p>
 
             <div class="d-flex align-items-center">
-                <span class="wow zoomIn glyph-icon flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet" style="font-size: 30px"></span> <p class="pl-3">
+                <span class="wow zoomIn glyph-icon flaticon-responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet" style="font-size: 30px"></span>
+                <p class="pl-3">
                     Website hoạt động tùy biến thông minh.
                 </p>
             </div>

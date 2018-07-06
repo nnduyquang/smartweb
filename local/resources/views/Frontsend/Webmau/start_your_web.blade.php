@@ -92,6 +92,21 @@
         background-color: white;
         color: #23cbff;
     }
+
+    @media only screen and (max-width: 770px) {
+        a.gui-yeu-cau{
+            width: 100%;
+        }
+
+        div#start_your_success_cover input{
+            width: 100%;
+        }
+
+        textarea.wpcf7-textarea{
+            width: 100%;
+        }
+
+    }
 </style>
 
 <div class="container-fluid position-relative p-0" id="start_your_success">
@@ -108,12 +123,12 @@
                     </h4>
 
                     <div class="d-flex align-items-center justify-content-between contact-info">
-                        <p><span>PHONE:</span> (028) 66830091</p>
-                        <p><span>EMAIL:</span> Smartwebvn@gmail.com</p>
+                        <p><span>PHONE :</span> (028) 66830091</p>
+                        <p><span>EMAIL :</span> info@smartlinks.vn</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-between contact-info">
-                        <p><span>HOTLINE:</span> 0914 348 131</p>
-                        <p><span>EMAIL:</span> Smartwebvn@gmail.com</p>
+                        <p><span>HOTLINE :</span> 0914 348 131</p>
+                        <p><span>EMAIL :</span> info@smartlinks.vn</p>
                     </div>
 
                 </div>

@@ -33,17 +33,17 @@
             {{--<h3>GIAO DIỆN TƯƠNG TÁC NGƯỜI DÙNG</h3>--}}
         {{--</div>--}}
         <div class="col-md-4 text-center">
-            <img src="{{ URL::asset('images/icon/icon_phone.png') }}" alt="">
+            <img class="wow bounce" src="{{ URL::asset('images/icon/icon_phone.png') }}" alt="">
             <h5 class="mt-4">Phone Support 24/7</h5>
             <p>Chúng tôi hỗ trợ khách hàng thông qua Hotline điện thoại, nhầm đáp ứng tối đa các nhu cầu cấp thiết từ khách hàng. </p>
         </div>
         <div class="col-md-4 text-center">
-            <img src="{{ URL::asset('images/icon/icon_chat.png') }}" alt="">
+            <img class="wow bounce" src="{{ URL::asset('images/icon/icon_chat.png') }}" alt="">
             <h5 class="mt-4">Live Chat</h5>
             <p>Đội ngũ nhân viên sẽ hỗ trợ bạn thông qua live chat, team viewer, để hướng dẫn gỡ rối những vấn đề của khách hàng gặp phải.</p>
         </div>
         <div class="col-md-4 text-center">
-            <img src="{{ URL::asset('images/icon/icon_customize.png') }}" alt="">
+            <img class="wow bounce" src="{{ URL::asset('images/icon/icon_customize.png') }}" alt="">
             <h5 class="mt-4">Kết Nối Mạng Xã Hội</h5>
             <p>Kết nối với khách hàng thông qua mạng xã hội, để xây dựng một môi trường cùng phát triển bền vững.</p>
         </div>

@@ -23,7 +23,7 @@
         div#start_your_success_cover{
             width: 100%;
             height: 100%;
-            /*background-color: rgba(4,63,153,0.9);*/
+            background-color: rgba(00,00,00,0.4);
         }
 
         div#start_your_success_cover input{
@@ -71,7 +71,7 @@
         }
 
         div#start_your_success_cover .contact-info p span{
-            color: #87eb04;
+            color: #23cbff;
             font-size: 20px;
             font-weight: 600;
             font-family: 'Asap Condensed', sans-serif;
@@ -84,7 +84,7 @@
         }
 
         div#start_your_success_cover .col-md-7 H3 span{
-            color: #87eb04;
+            color: #23cbff;
         }
 
         a.gui-yeu-cau{
@@ -92,15 +92,18 @@
             width: 80%;
             display: block;
             text-align: center;
-            background-color: #87eb04;
+            background-color: #23cbff;
             font-size: 16px;
             padding: 6px 0 6px 0;
             color: white;
+            transition: .3s;
+            font-weight: 600;
         }
 
         a.gui-yeu-cau:hover{
             text-decoration: none;
-
+            background-color: white;
+            color: #23cbff;
         }
 
         @media only screen and (max-width: 770px) {
@@ -121,36 +124,36 @@
 
     <div class="container-fluid position-relative p-0" id="start_your_success">
         <div  id="start_your_success_cover">
-        <div class="container">
-            <div class="row pb-5 pt-5">
-                <div class="col-md-7">
+            <div class="container">
+                <div class="row pb-5 pt-5">
+                    <div class="col-md-7">
 
-                    <h3 style="padding: 10px 0 20px 0">KHỞI ĐỘNG THÀNH CÔNG CỦA BẠN <br>
-                    <span>NGAY HÔM NAY !</span></h3>
+                        <h3 style="padding: 10px 0 20px 0">KHỞI ĐỘNG THÀNH CÔNG CỦA BẠN <br>
+                            <span>NGAY HÔM NAY !</span></h3>
 
-                    <h4 style="font-weight:normal;width: 80%;border-top: 2px dotted #eeeeee;padding: 20px 0 20px 0;color: white;font-size: 28px">
-                        TƯ VẤN THIẾT KẾ WEBSITE
-                    </h4>
+                        <h4 style="font-weight:normal;width: 80%;border-top: 2px dotted #eeeeee;padding: 20px 0 20px 0;color: white;font-size: 28px">
+                            TƯ VẤN THIẾT KẾ WEBSITE
+                        </h4>
 
-                    <div class="d-flex align-items-center justify-content-between contact-info">
-                        <p><span>PHONE :</span> (028) 66830091</p>
-                        <p><span>EMAIL :</span> info@gmail.com</p>
+                        <div class="d-flex align-items-center justify-content-between contact-info">
+                            <p><span>PHONE :</span> (028) 66830091</p>
+                            <p><span>EMAIL :</span> info@smartlinks.vn</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between contact-info">
+                            <p><span>HOTLINE :</span> 0914 348 131</p>
+                            <p><span>EMAIL :</span> info@smartlinks.vn</p>
+                        </div>
+
                     </div>
-                    <div class="d-flex align-items-center justify-content-between contact-info">
-                        <p><span>HOTLINE :</span> 0914 348 131</p>
-                        <p><span>EMAIL :</span> info@gmail.com</p>
+                    <div class="col-md-5 text-right">
+                        <input type="text" placeholder="Tên của bạn">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Số điện thoại">
+                        <textarea rows="2" class="wpcf7-textarea" aria-invalid="false" placeholder="Nội dung"></textarea>
+                        <a href="" class="gui-yeu-cau"> GỬI YÊU CẦU</a>
                     </div>
-
-                </div>
-                <div class="col-md-5 text-lg-right text-center">
-                    <input type="text" placeholder="Tên của bạn">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Số điện thoại">
-                    <textarea rows="2" class="wpcf7-textarea" aria-invalid="false" placeholder="Nội dung"></textarea>
-                    <a href="" class="gui-yeu-cau"> GỬI YÊU CẦU</a>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 

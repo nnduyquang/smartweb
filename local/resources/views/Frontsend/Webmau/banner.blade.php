@@ -38,11 +38,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center pt-5">
-                <h3>GIAO DIỆN MẪU</h3>
-                <h2>Hơn 100+ mẫu giao diện đa nghành nghề</h2>
-                <p>Off the Shelf is designed to work with SiteOrigin Page Builder, one of the most popular page
-                    builder plug-ins for the WordPress platform</p>
-                <img src="{{URL::asset('images/Banner/browser-page-builder.png')}}" alt=""
+                <h3 class="wow fadeIn" data-wow-delay="">GIAO DIỆN MẪU</h3>
+                <h2 class="wow zoomIn" data-wow-delay="0.5s">Hơn 100+ mẫu giao diện đa nghành nghề</h2>
+                <p class="wow zoomIn" data-wow-delay="1s">
+                    Smartlinks website với kho giao diện hơn 100+ mẫu website đa ngành nghề, với thiết kế hiện đại, giao diện web Responsive hay nói
+                    cách khách giao diện tương thích với các thiết bị khác nhau như di dộng, máy tính...!
+                </p>
+                <img class="wow zoomIn" data-wow-delay="1.5s" src="{{URL::asset('images/Banner/browser-page-builder.png')}}" alt=""
                      style="width: 90%;height: auto;">
             </div>
         </div>

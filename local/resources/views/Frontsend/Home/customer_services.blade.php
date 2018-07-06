@@ -20,6 +20,18 @@
         font-size: 18px;
         font-family: 'Encode Sans Condensed', sans-serif;
     }
+
+    .h-support-3man{
+        width: 45%;
+        height: auto;
+    }
+    @media only screen and (max-width: 770px) {
+        .h-support-3man{
+            width: 70%;
+        }
+
+    }
+
 </style>
 <div class="container-fluid pb-5" id="customer_services">
     <div class="container">
@@ -31,7 +43,7 @@
                     câu hỏi, một mối quan tâm hoặc cần hỗ trợ, chúng tôi đối xử với bạn như một khách hàng có giá
                     trị và tôi tin sẽ giúp bạn hơn nữa trong ngành Digital Marketing.
                 </p>
-                <img class="wow bounceIn" src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="width: 45%;height: auto;">
+                <img class="wow bounceIn h-support-3man" src="{{URL::asset('images/Banner/maquette-billet.png')}}" alt="" style="">
             </div>
         </div>
     </div>

@@ -94,7 +94,7 @@
                 <ul class="">
                     <li>THÔNG TIN VỀ CHÚNG TÔI</li>
                     <li><i class="fas fa-map-marker-alt"></i> 25 Hoàng Diệu, Phường 12, Quận 4, TPHCM.</li>
-                    <li><i class="fas fa-envelope"></i> Suport24.Smartweb@gmail.com</li>
+                    <li><i class="fas fa-envelope"></i> info@smartlinks.vn</li>
                     <li><i class="fas fa-headphones"></i> 0914.348.131</li>
                     <li><i class="fas fa-phone-square"></i> (028) 66830091</li>
                 </ul>

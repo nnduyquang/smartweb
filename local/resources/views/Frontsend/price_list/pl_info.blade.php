@@ -152,7 +152,7 @@
             </div>
         </div>
         <div id="add-on-info">
-            <div class="row no-gutters mb-5">
+            <div class="row no-gutters m-0 mb-5">
                 <div class="col-8">
                     <div class="title">DỊCH VỤ CỘNG THÊM</div>
                     <div class="content">
