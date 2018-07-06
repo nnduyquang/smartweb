@@ -1,0 +1,13 @@
+.card {
+  border: none;
+  background-color: inherit;
+  border-radius: 0;
+  .card-body {
+    padding: 0;
+  }
+  .card-footer{
+    padding: 0;
+    background-color: inherit;
+    border: none;
+  }
+}

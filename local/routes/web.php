@@ -31,6 +31,10 @@ Route::get('/hosting.html', function () {
     return view('Frontsend.Hosting.index');
 });
 
+Route::get('/quan-tri-website.html', function () {
+    return view('Frontsend.website_manage.index');
+});
+
 Route::post('/send-request-website/send', ['as' => 'mail.send', 'uses' => 'MailController@send']);
 
 Auth::routes();

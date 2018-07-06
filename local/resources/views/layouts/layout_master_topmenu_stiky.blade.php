@@ -183,7 +183,7 @@
                             <div class="position-absolute" id="dichvu_khac">
                                 <ul>
                                     <li><a href="{{url('hosting.html')}}" class="dichvu-khac">HOSTING & TÊN MIỀN</a></li>
-                                    <li><a href="" class="dichvu-khac">DỊCH VỤ QUẢN TRỊ WEB</a></li>
+                                    <li><a href="{{URL::to('quan-tri-website.html')}}" class="dichvu-khac">DỊCH VỤ QUẢN TRỊ WEB</a></li>
                                     <li><a href="" class="dichvu-khac">DỊCH VỤ DIGITAL MARKETING</a></li>
                                     <li><a href="" class="dichvu-khac">DỊCH VỤ EMAIL DOANH NGHIỆP</a></li>
                                 </ul>

@@ -1,3 +1,19 @@
+.card {
+  border: none;
+  background-color: inherit;
+  border-radius: 0;
+}
+
+.card .card-body {
+  padding: 0;
+}
+
+.card .card-footer {
+  padding: 0;
+  background-color: inherit;
+  border: none;
+}
+
 #pl_info h1 {
   font-size: 35px;
   color: #454444;
@@ -215,5 +231,202 @@
 #pl_modal_register .modal-dialog .modal-content .modal-body input {
   border-radius: 0;
   margin-bottom: 5px;
+}
+
+#wm_info h1 {
+  font-size: 35px;
+  color: #454444;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+#wm_info hr {
+  height: 3px;
+  width: 38px;
+  background-color: #074b73;
+}
+
+#wm_info #wm_top .one-wm {
+  padding-bottom: 40px;
+}
+
+#wm_info #wm_top .one-wm .icon {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#wm_info #wm_top .one-wm .icon i {
+  color: #32AAE0;
+  font-size: 48px;
+}
+
+#wm_info #wm_top .one-wm .card-body h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#wm_info #wm_top .one-wm .card-footer p {
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+}
+
+#wm_info #wm_bottom .wm-desktop .hover-effect:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  z-index: 9;
+}
+
+#wm_info #wm_bottom .wm-desktop .price {
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+#wm_info #wm_bottom .wm-desktop .price.first {
+  background-color: white;
+}
+
+#wm_info #wm_bottom .wm-desktop .price.second {
+  background: #9ec73b;
+}
+
+#wm_info #wm_bottom .wm-desktop .price.third {
+  background: #44a2db none repeat scroll 0 0;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item {
+  margin-bottom: 20px;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .title {
+  padding-left: 20px;
+  clear: both;
+  background: #0071bb;
+  font-size: 16px;
+  color: #ffffff;
+  height: 33px;
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .content .item {
+  padding-left: 20px;
+  background-color: #f9f9ff;
+  font-size: 15px;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .content .item i {
+  font-size: 18px;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .content .item i.fa-check-square {
+  color: #14a963;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .content .item i.fa-times {
+  color: red;
+}
+
+#wm_info #wm_bottom .wm-desktop .one-item .content .item:nth-child(2n) {
+  background-color: white;
+}
+
+#wm_info #wm_bottom .wm-desktop span.note {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#wm_info #wm_bottom .wm-mobile {
+  margin-bottom: 20px;
+}
+
+#wm_info #wm_bottom .wm-mobile ul.nav-tabs li.nav-item {
+  width: 50%;
+}
+
+#wm_info #wm_bottom .wm-mobile ul.nav-tabs li.nav-item a.nav-link {
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  border-radius: inherit;
+  color: white;
+  font-weight: bold;
+}
+
+#wm_info #wm_bottom .wm-mobile ul.nav-tabs li.nav-item a.nav-link.active {
+  border: none;
+}
+
+#wm_info #wm_bottom .wm-mobile ul.nav-tabs li.nav-item a.nav-link.first {
+  background: #9ec73b;
+}
+
+#wm_info #wm_bottom .wm-mobile ul.nav-tabs li.nav-item a.nav-link.second {
+  background: #44a2db none repeat scroll 0 0;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content h4 {
+  text-align: center;
+  font-size: 19px;
+  line-height: 40px;
+  color: #989898;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .price {
+  background: #0071bb none repeat scroll 0 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .title {
+  background: #44a2db none repeat scroll 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .content .item {
+  width: 100%;
+  font-size: 15px;
+  background-color: #f9f9ff;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .content .item:nth-child(2n) {
+  background-color: white;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .content .item i {
+  font-size: 18px;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .content .item i.fa-check-square {
+  color: #14a963;
+}
+
+#wm_info #wm_bottom .wm-mobile .tab-content .one-item .content .item i.fa-times {
+  color: red;
+}
+
+#wm_info #wm_bottom .wm-mobile span.note {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  margin: 20px 0;
 }
 

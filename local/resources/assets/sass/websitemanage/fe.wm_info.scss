@@ -1,0 +1,186 @@
+#wm_info {
+  h1 {
+    font-size: 35px;
+    color: #454444;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  hr {
+    height: 3px;
+    width: 38px;
+    background-color: #074b73;
+  }
+  #wm_top {
+    .one-wm {
+      padding-bottom: 40px;
+      .icon {
+        text-align: center;
+        padding-bottom: 20px;
+        i {
+          color: #32AAE0;
+          font-size: 48px;
+        }
+      }
+      .card-body {
+        h4 {
+          font-size: 16px;
+          text-transform: uppercase;
+          text-align: center;
+        }
+      }
+      .card-footer {
+        p {
+          line-height: 25px;
+          font-weight: 100;
+          font-size: 16px;
+          color: #444;
+          text-align: center;
+        }
+      }
+    }
+  }
+  #wm_bottom {
+    .wm-desktop {
+      .hover-effect {
+        &:hover {
+          box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+          z-index: 9;
+        }
+      }
+      .price {
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 50px;
+        &.first {
+          background-color: white;
+
+        }
+        &.second {
+          background: rgb(158, 199, 59);
+        }
+        &.third {
+          background: rgb(68, 162, 219) none repeat scroll 0 0;
+        }
+      }
+      .one-item {
+        .title {
+          padding-left: 20px;
+          clear: both;
+          background: #0071bb;
+          font-size: 16px;
+          color: #ffffff;
+          height: 33px;
+          border-bottom: 1px solid #ffffff;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .content {
+          .item {
+            padding-left: 20px;
+            background-color: #f9f9ff;
+            font-size: 15px;
+            i {
+              font-size: 18px;
+              &.fa-check-square {
+                color: #14a963;
+              }
+              &.fa-times {
+                color: red;
+              }
+            }
+            &:nth-child(2n) {
+              background-color: white;
+            }
+          }
+        }
+        margin-bottom: 20px;
+      }
+      span.note {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+    .wm-mobile {
+      margin-bottom: 20px;
+      ul.nav-tabs {
+        li.nav-item {
+          width: 50%;
+          a.nav-link {
+            border: none;
+            text-align: center;
+            font-size: 18px;
+            border-radius: inherit;
+            color: white;
+            font-weight: bold;
+            &.active {
+              border: none;
+            }
+            &.first {
+              background: rgb(158, 199, 59);
+            }
+            &.second {
+              background: rgb(68, 162, 219) none repeat scroll 0 0;
+            }
+          }
+        }
+      }
+      .tab-content {
+        h4 {
+          text-align: center;
+          font-size: 19px;
+          line-height: 40px;
+          color: rgb(152, 152, 152);
+        }
+        .price {
+          background: #0071bb none repeat scroll 0 0;
+          color: #fff;
+          font-weight: 600;
+          text-align: center;
+          font-size: 16px;
+          padding: 5px 20px;
+        }
+        .one-item {
+          .title {
+            background: rgb(68, 162, 219) none repeat scroll 0 0;
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            padding: 5px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .content {
+            .item {
+              width: 100%;
+              font-size: 15px;
+              background-color: #f9f9ff;
+              &:nth-child(2n) {
+                background-color: white;
+              }
+              i {
+                font-size: 18px;
+                &.fa-check-square {
+                  color: #14a963;
+                }
+                &.fa-times {
+                  color: red;
+                }
+              }
+            }
+          }
+        }
+      }
+      span.note {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+      }
+    }
+  }
+}
