@@ -58,10 +58,33 @@
                     </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
+                    <div class="title">Cơ bản</div>
+                    <div class="price">
+                        <i class="fas fa-cloud"></i>
+                        <span>3.500.000</span>
+                    </div>
+                    <div class="content">
+                        <div class="item"><span>Thiết kế theo mẫu</span></div>
+                        <div class="item"><span></span></div>
+                        <div class="item"><span>750 MB</span></div>
+                        <div class="item"><span>15GB</span></div>
+                        <div class="item"></div>
+                        <div class="item"><i class="far fa-check-square"></i></div>
+                        <div class="item"><span>Chuẩn SEO 100%</span></div>
+                        <div class="item"><span>Đầy đủ chức năng</span></div>
+                        <div class="item"><i class="far fa-check-square"></i></div>
+                        <div class="item"><i class="far fa-check-square"></i></div>
+                        <div class="item"><span>Giảm giá Adwords</span></div>
+                    </div>
+                    <div class="register">
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="1" class="do-register">Đặt Mua</a>
+                    </div>
+                </div>
+                <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
                     <div class="title">Chuyên nghiệp</div>
                     <div class="price">
                         <i class="fas fa-cloud"></i>
-                        <span>4.900.000</span>
+                        <span>5.900.000</span>
                     </div>
                     <div class="content">
                         <div class="item"><span>Thiết kế theo mẫu</span></div>
@@ -74,10 +97,10 @@
                         <div class="item"><span>Đầy đủ chức năng</span></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><span>Giảm giá Adwords</span></div>
+                        <div class="item"><span>Tặng 1 tháng Remarketing</span></div>
                     </div>
                     <div class="register">
-                        <a data-toggle="modal" href="#pl_modal_register" data-id="1" class="do-register">Đặt Mua</a>
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="2" class="do-register">Đặt Mua</a>
                     </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
@@ -97,17 +120,17 @@
                         <div class="item"><span>Đầy đủ chức năng</span></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><span>Giảm giá Adwords</span></div>
+                        <div class="item"><span>Tặng 1 tháng chạy Google Ads (5 - 7 từ khóa)</span></div>
                     </div>
                     <div class="register">
-                        <a data-toggle="modal" href="#pl_modal_register" data-id="2" class="do-register">Đặt Mua</a>
+                        <a data-toggle="modal" href="#pl_modal_register" data-id="3" class="do-register">Đặt Mua</a>
                     </div>
                 </div>
                 <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
                     <div class="title">Cao cấp</div>
                     <div class="price">
                         <i class="fas fa-cloud"></i>
-                        <span>10.900.000</span>
+                        <span>11.900.000</span>
                     </div>
                     <div class="content">
                         <div class="item"><span>Thiết kế độc quyền theo yêu cầu</span></div>
@@ -120,30 +143,7 @@
                         <div class="item"><span>Chức năng cao cấp</span></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
                         <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><span>Giảm giá Adwords</span></div>
-                    </div>
-                    <div class="register">
-                        <a data-toggle="modal" href="#pl_modal_register" data-id="3" class="do-register">Đặt Mua</a>
-                    </div>
-                </div>
-                <div class="col-lg one-price pl-md-0 pr-md-0 mb-2">
-                    <div class="title">Theo yêu cầu</div>
-                    <div class="price">
-                        <i class="fas fa-cloud"></i>
-                        <span>Liên hệ</span>
-                    </div>
-                    <div class="content">
-                        <div class="item"><span>Thiết kế độc quyền theo yêu cầu</span></div>
-                        <div class="item"><span>Theo yêu cầu</span></div>
-                        <div class="item"><span>Theo yêu cầu</span></div>
-                        <div class="item"><span>Không giới hạn</span></div>
-                        <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><span>Tối ưu SEO 100%</span></div>
-                        <div class="item"><span>Theo yêu cầu</span></div>
-                        <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><i class="far fa-check-square"></i></div>
-                        <div class="item"><span>Giảm giá Adwords</span></div>
+                        <div class="item"><span>Tặng 1 tháng chạy Google Ads (10 - 20 từ khóa)</span></div>
                     </div>
                     <div class="register">
                         <a data-toggle="modal" href="#pl_modal_register" data-id="4" class="do-register">Đặt Mua</a>

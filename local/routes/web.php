@@ -31,6 +31,8 @@ Route::get('/hosting.html', function () {
     return view('Frontsend.Hosting.index');
 });
 
+Route::post('/send-request-website/send', ['as' => 'mail.send', 'uses' => 'MailController@send']);
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
