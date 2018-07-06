@@ -4,17 +4,17 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Đăng Ký Mua Website</h5>
+                <h5 class="modal-title" style="text-align: center;width: 100%;color: #007bff" id="exampleModalLabel">ĐĂNG KÝ MUA WEBSITE</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 {!! Form::select('register_type', array(
-                '1' => 'Gói chuyên nghiệp',
-                '2' => 'Gói nâng cao',
-                '3' => 'Gói cao cấp',
-                '4' => 'Gói theo yêu cầu',
+                '1' => 'Gói cơ bản',
+                '2' => 'Gói chuyên nghiệp',
+                '3' => 'Gói nâng cao',
+                '4' => 'Gói cao cấp',
                 )); !!}
                 <div class="ip-name input-group">
                     {!! Form::text('register_name', null, array('placeholder' => 'Tên Quý Khách','class' => 'form-control input-text')) !!}

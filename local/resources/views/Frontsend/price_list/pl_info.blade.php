@@ -154,7 +154,7 @@
         <div id="add-on-info">
             <div class="row no-gutters m-0 mb-5">
                 <div class="col-8">
-                    <div class="title">DỊCH VỤ CỘNG THÊM</div>
+                    <div class="title">DỊCH VỤ CỘNG THÊM THEO YÊU CẦU</div>
                     <div class="content">
                         <div class="item"><span>Cập nhật sản phẩm theo yêu cầu</span></div>
                         <div class="item"><span>Thiết kế banner</span></div>
