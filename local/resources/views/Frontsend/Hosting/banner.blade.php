@@ -15,7 +15,7 @@
     }
 
     div#webmau_banner h2 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: normal;
         color: white;
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -88,9 +88,9 @@
         <div class="row d-flex justify-content-end">
             <div class="col-md-5 mt-5 mb-5 text-right" id="hosting_content">
                 <h3 class="wow zoomIn">DỊCH VỤ HOSTING</h3>
-                <h2 class="wow fadeIn" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet beatae culpa dolore.</h2>
-                <p class="wow fadeIn" data-wow-delay="0.5s">Off the Shelf is designed to work with SiteOrigin Page Builder, one of the most popular page
-                    builder plug-ins for the laravel platform</p>
+                <h2 class="wow fadeIn" data-wow-delay="0.5s">Smartlinks Wesbite cung cấp dịch vụ Hosting, tên miền Quốc Tế và tên miền Việt Nam.</h2>
+                <p class="wow fadeIn" data-wow-delay="0.5s">Smartlinks Website chuyên tư vấn hosting và tên miền phù hợp với yêu cầu, nhu cầu của khách hàng,
+                giúp khách hàng tối ưu kinh phí nâng cao lợi nhuận</p>
                 <img class="wow fadeIn" data-wow-delay="1s" src="{{URL::asset('images/Banner/hosting.png')}}" alt=""
                      style="width: 50%;height: auto;">
                 <br>
