@@ -82,7 +82,6 @@
 
         }
 
-
         div.bangia-hosting-hot button:hover {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -100,24 +99,24 @@
             padding-bottom: 38px;
         }
 
-        div.bangia-hosting ul li, div.bangia-hosting-hot ul li{
+        div.bangia-hosting ul li, div.bangia-hosting-hot ul li {
             text-align: left;
             font-size: 18px;
             list-style-type: none;
         }
 
-        div.bangia-hosting p.bgh-slogan, div.bangia-hosting-hot  p.bgh-slogan{
+        div.bangia-hosting p.bgh-slogan, div.bangia-hosting-hot p.bgh-slogan {
             font-size: 17px;
             padding: 10px;
         }
 
-        div.bangia-hosting span.old-price, div.bangia-hosting-hot span.old-price{
+        div.bangia-hosting span.old-price, div.bangia-hosting-hot span.old-price {
             text-decoration: line-through;
             color: #bbbbbb;
             font-size: 22px;
         }
 
-        div.bangia-hosting span.sale, div.bangia-hosting-hot span.sale{
+        div.bangia-hosting span.sale, div.bangia-hosting-hot span.sale {
             position: relative;
             background-color: red;
             border-radius: 3px;
@@ -127,7 +126,7 @@
             padding: 10px 20px 8px 20px;
         }
 
-        div.bangia-hosting span.sale::after , div.bangia-hosting-hot span.sale::after{
+        div.bangia-hosting span.sale::after, div.bangia-hosting-hot span.sale::after {
             content: '';
             position: absolute;
             bottom: -10px;
@@ -140,17 +139,17 @@
             transform: translate(-50%, 0%);
         }
 
-        div.bangia-hosting h4 , div.bangia-hosting-hot h4{
+        div.bangia-hosting h4, div.bangia-hosting-hot h4 {
             padding-top: 18px;
             font-family: 'Yanone Kaffeesatz', sans-serif;
         }
 
-        div.bangia-hosting p span.sale-month, div.bangia-hosting-hot p span.sale-month{
+        div.bangia-hosting p span.sale-month, div.bangia-hosting-hot p span.sale-month {
             font-size: 18px;
             font-family: 'Yanone Kaffeesatz', sans-serif;
         }
 
-        div.bangia-hosting p.new-price, div.bangia-hosting-hot p.new-price{
+        div.bangia-hosting p.new-price, div.bangia-hosting-hot p.new-price {
             border-bottom: 2px dotted #a9abac;
             width: 80%;
             margin: auto;
@@ -178,7 +177,6 @@
             left: 50%;
             transform: translate(-50%, 0%);
         }
-        
 
         div.bangia-hosting-hot:hover {
             box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
@@ -242,28 +240,24 @@
 
             <div class="col-md-4 p-0">
                 <div class="bangia-hosting text-center wow zoomIn">
-                    <h4>GÓI KHỞI NGHIỆP</h4>
+                    <h4>CƠ BẢN</h4>
 
-                    <span class="old-price">597.600 VNĐ </span><br>
-                    <span class="sale">Giảm 53%</span><br>
-                    <p class="new-price"> 278.000 VNĐ <span class="sale-month">/tháng</span></p>
-
+                    {{--<span class="old-price">597.600 VNĐ </span><br>--}}
+                    {{--<span class="sale">Giảm 53%</span><br>--}}
+                    <p class="new-price"> 65.000 VNĐ <span class="sale-month">/tháng</span></p>
+                    <span style="font-size: 15px;font-style: italic;color: gray">(Giá trên chưa bao gồm VAT)</span>
                     <p class="bgh-slogan">Cho các website đang phát triển tốt và cần nhiều khả năng mở rộng hơn nữa</p>
 
                     <button>ĐĂNG KÝ</button>
                     <ul>
-                        <li>40 GB dung lượng đĩa</li>
-                        <li>+ 3 GB RAM</li>
-                        <li>+ 2 CPU Cores</li>
-                        <li>+ Speed Boost</li>
-                        <li>+ Quản lý cache</li>
-                        <li>+ Tài nguyên riêng</li>
-                        <li>+ Quản lý thời gian uptime</li>
-                        <li>+ 1 Click cài đặt</li>
-                        <li>+ Backup hằng ngày</li>
-                        <li>+ Control Panel Mạnh Mẽ</li>
-                        <li>+ Hỗ trợ trực tuyến 24/7</li>
-                        <li>+ Miễn phí SSL Certificate</li>
+                        <li>Dung lượng: 1,5 GB [SSD]</li>
+                        <li>Băng thông: unlimited</li>
+                        <li>Sub-domain: unlimited</li>
+                        <li>Email: unlimited</li>
+                        <li>FTP: unlimited</li>
+                        <li>Database: 2</li>
+                        <li>Addon domain: 0</li>
+                        <li>Park domain: unlimited</li>
                     </ul>
 
 
@@ -271,56 +265,48 @@
             </div>
             <div class="col-md-4 p-0 ">
                 <div class="bangia-hosting-hot pt-5  wow zoomIn">
-                    <h4>HOST THÔNG DỤNG</h4>
+                    <h4>CHUYÊN NGHIỆP</h4>
 
-                    <span class="old-price">597.600 VNĐ </span><br>
-                    <span class="sale">Giảm 53%</span><br>
-                    <p class="new-price"> 278.000 VNĐ <span class="sale-month">/tháng</span></p>
-
+                    {{--<span class="old-price">597.600 VNĐ </span><br>--}}
+                    {{--<span class="sale">Giảm 53%</span><br>--}}
+                    <p class="new-price"> 135.000 VNĐ <span class="sale-month">/tháng</span></p>
+                    <span style="font-size: 15px;font-style: italic;color: gray">(Giá trên chưa bao gồm VAT)</span>
                     <p class="bgh-slogan">Cho các website đang phát triển tốt và cần nhiều khả năng mở rộng hơn nữa</p>
 
                     <button>ĐĂNG KÝ</button>
                     <ul>
-                        <li>40 GB dung lượng đĩa</li>
-                        <li>+ 3 GB RAM</li>
-                        <li>+ 2 CPU Cores</li>
-                        <li>+ Speed Boost</li>
-                        <li>+ Quản lý cache</li>
-                        <li>+ Tài nguyên riêng</li>
-                        <li>+ Quản lý thời gian uptime</li>
-                        <li>+ 1 Click cài đặt</li>
-                        <li>+ Backup hằng ngày</li>
-                        <li>+ Control Panel Mạnh Mẽ</li>
-                        <li>+ Hỗ trợ trực tuyến 24/7</li>
-                        <li>+ Miễn phí SSL Certificate</li>
+                        <li>Dung lượng: 3 GB [SSD]</li>
+                        <li>Băng thông: unlimited</li>
+                        <li>Sub-domain: unlimited</li>
+                        <li>Email: unlimited</li>
+                        <li>FTP: unlimited</li>
+                        <li>Database: 5</li>
+                        <li>Addon domain: 2</li>
+                        <li>Park domain: unlimited</li>
                     </ul>
 
                 </div>
             </div>
             <div class="col-md-4 p-0">
                 <div class="bangia-hosting text-center  wow zoomIn">
-                    <h4>GÓI KINH DOANH</h4>
+                    <h4>DOANH NGHIỆP</h4>
 
-                    <span class="old-price">2.597.600 VNĐ </span><br>
-                    <span class="sale">Giảm 53%</span><br>
-                    <p class="new-price"> 1.278.000 VNĐ <span class="sale-month">/tháng</span></p>
-
+                    {{--<span class="old-price">2.597.600 VNĐ </span><br>--}}
+                    {{--<span class="sale">Giảm 53%</span><br>--}}
+                    <p class="new-price"> 270.000 VNĐ <span class="sale-month">/tháng</span></p>
+                    <span style="font-size: 15px;font-style: italic;color: gray">(Giá trên chưa bao gồm VAT)</span>
                     <p class="bgh-slogan">Cho các website đang phát triển tốt và cần nhiều khả năng mở rộng hơn nữa</p>
 
                     <button>ĐĂNG KÝ</button>
                     <ul>
-                        <li>40 GB dung lượng đĩa</li>
-                        <li>+ 3 GB RAM</li>
-                        <li>+ 2 CPU Cores</li>
-                        <li>+ Speed Boost</li>
-                        <li>+ Quản lý cache</li>
-                        <li>+ Tài nguyên riêng</li>
-                        <li>+ Quản lý thời gian uptime</li>
-                        <li>+ 1 Click cài đặt</li>
-                        <li>+ Backup hằng ngày</li>
-                        <li>+ Control Panel Mạnh Mẽ</li>
-                        <li>+ Hỗ trợ trực tuyến 24/7</li>
-                        <li>+ Miễn phí SSL Certificate</li>
+                        <li>Dung lượng: 7 GB [SSD]</li>
+                        <li>Băng thông: unlimited</li>
+                        <li>Sub-domain: unlimited</li>
+                        <li>Email: unlimited</li>
+                        <li>FTP: unlimited</li>
+                        <li>Database: 10</li>
+                        <li>Addon domain: 3</li>
+                        <li>Park domain: unlimited</li>
                     </ul>
 
 
