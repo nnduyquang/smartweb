@@ -99,7 +99,7 @@
                                 </div>
                                 <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB THỜI TRANG</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
@@ -112,7 +112,7 @@
                                 </div>
                                 <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB BĐS</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
@@ -125,7 +125,7 @@
                                 </div>
                                 <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB TMĐT</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
@@ -138,7 +138,7 @@
                                 </div>
                                 <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB NỘI THẤT</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
@@ -151,7 +151,7 @@
                                 </div>
                                 <a href="#fe_wm_giaodienmau">
                                 <h4 class="mt-3">WEB DỊCH VỤ</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
