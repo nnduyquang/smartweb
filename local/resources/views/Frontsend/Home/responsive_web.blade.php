@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-md-8">
             <img src="{{URL::asset('images/Banner/web-para-moviles.png  ')}}" alt=""
-                 style="width: 100%;height: auto;">
+                 style="width: 100%;height: auto;padding-top: 30px">
         </div>
         <div class="col-md-4 pt-3">
             <h3 class="justify-content-center text-left" style="padding: auto">
