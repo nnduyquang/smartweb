@@ -21,6 +21,7 @@
 
     div#fe_home_features_bottom a{
         transition: .3s;
+        color:#0690c9;
     }
 
     div#fe_home_features_bottom a:hover{
@@ -30,7 +31,7 @@
     div#fe_home_features_bottom p{
         color: #777777;
         font-size: 18px;
-        color: #074b73;
+        color: #0690c9;
         font-weight: 500;
     }
 </style>
