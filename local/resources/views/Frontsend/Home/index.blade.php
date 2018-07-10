@@ -8,7 +8,8 @@
     @include('Frontsend.Home.responsive_web')
     @include('Frontsend.Home.easy-interaction')
     @include('Frontsend.Home.create-website-you-want')
-    @include('Frontsend.Home.customer_services')
+    @include('Frontsend.price_list.pl_info')
+    {{--@include('Frontsend.Home.customer_services')--}}
     {{--@include('Frontsend.Home.slogan2')--}}
 
     <style>

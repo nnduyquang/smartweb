@@ -189,26 +189,6 @@
   text-decoration: none;
 }
 
-#pl_info #add-on-info .title {
-  color: white;
-  font-size: 18px;
-  padding: 9px 12px;
-  border: 1px solid white;
-  background-color: #04B8FF;
-  font-weight: bold;
-}
-
-#pl_info #add-on-info .content .item {
-  border: 1px solid rgba(0, 0, 0, 0.0666667);
-  height: 55px;
-  line-height: 19px;
-}
-
-#pl_info #add-on-info .content .item span {
-  padding: 9px 12px;
-  font-size: 15px;
-}
-
 #pl_info #price-contact {
   margin-bottom: 20px;
 }
@@ -218,6 +198,26 @@
   text-align: center;
   display: block;
   padding: 10px 0;
+}
+
+#add-on-info .title {
+  color: white;
+  font-size: 18px;
+  padding: 9px 12px;
+  border: 1px solid white;
+  background-color: #04B8FF;
+  font-weight: bold;
+}
+
+#add-on-info .content .item {
+  border: 1px solid rgba(0, 0, 0, 0.0666667);
+  height: 55px;
+  line-height: 19px;
+}
+
+#add-on-info .content .item span {
+  padding: 9px 12px;
+  font-size: 15px;
 }
 
 #pl_modal_register .modal-dialog .modal-content .modal-body select[name='register_type'] {
