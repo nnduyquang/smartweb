@@ -61,7 +61,7 @@
                     <div class="title">Cơ bản</div>
                     <div class="price">
                         <i class="fas fa-cloud"></i>
-                        <span>3.500.000</span>
+                        <span>3.900.000</span>
                     </div>
                     <div class="content">
                         <div class="item"><span>Thiết kế theo mẫu</span></div>
