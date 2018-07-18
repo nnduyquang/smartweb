@@ -27,8 +27,13 @@ Route::get('/bang-gia.html', function () {
 Route::get('/ho-tro.html', function () {
     return view('Frontsend.Pages.hotro');
 });
+
 Route::get('/hosting.html', function () {
     return view('Frontsend.Hosting.index');
+});
+
+Route::get('/chi-tiet.html', function () {
+    return view('Frontsend.Details.index');
 });
 
 Route::get('/quan-tri-website.html', function () {
