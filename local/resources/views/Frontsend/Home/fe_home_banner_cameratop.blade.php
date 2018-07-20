@@ -48,9 +48,7 @@
         cursor: pointer;
         border-radius: 30px;
         background-color: #074b73;
-        color: white;
-        font-size: 15px;
-        padding: 12px;
+        padding: 0px 16px;
         color: white;
         font-weight: 500;
         transition: .3s;
@@ -66,6 +64,8 @@
     .computer-slider {
         z-index: 1;
     }
+
+
 
     button.first,button.last{
         opacity: 0;
@@ -160,7 +160,7 @@
 
 </style>
 
-<div class="container-fluid p-0" id="master_banner_camera_top">
+<div class="container-fluid p-0 mb-4" id="master_banner_camera_top">
     <div class="computer-slider position-relative" style="overflow: hidden;">
         <img src="images/bg/computer_2.png" alt=""
              style="z-index: 1;width: 60%;height: auto;float: right;position: absolute;-webkit-animation: mymove 1s; /* Safari 4.0 - 8.0 */
@@ -177,9 +177,10 @@
                         - Chuẩn Google pagespeed 90/100.
                     </p>
 
-                    <button class="first">XEM CHI TIẾT</button>
-                    <button class="last">LIÊN HỆ NGAY</button>
-
+                    <div class="d-flex align-items-center">
+                    <button class="first mr-2">XEM CHI TIẾT</button>
+                    <button class="last" style="font-size: 30px">0914 348 131</button>
+                    </div>
                 </div>
             </div>
         </div>
