@@ -217,7 +217,7 @@
                         <div class="col-md-12 text-center pt-3 mb-4" style="border:1px dashed #888888">
                             <h2>TƯ VẤN THIẾT KẾ WEBSITE</h2>
                             <span class="text-secondary">Hotline:
-                                <span class="text-danger" style="font-size: 28px">[028] 7300.4488</span>
+                                <span class="text-danger" style="font-size: 28px">0914 348 131</span>
                             </span>
                         </div>
 
