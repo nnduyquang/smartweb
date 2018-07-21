@@ -92,65 +92,65 @@
                             <div class="owl-item text-center">
 
                                 <div style="">
-                                    <a href="#fe_wm_giaodienmau">
-                                    <img src="{{URL::asset('images/Banner/web1.jpg')}}" alt=""
+                                    <a href="http://diencoduyduong.com">
+                                    <img src="{{URL::asset('images/tkweb/screencapture-diencoduyduong-2018-07-21-11_14_14.png')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
                                     </a>
                                 </div>
-                                <a href="#fe_wm_giaodienmau">
-                                <h4 class="mt-3">WEB THỜI TRANG</h4>
+                                <a href="http://diencoduyduong.com">
+                                <h4 class="mt-3">DỊCH VỤ SỬA CHỮA</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
                             <div class="owl-item text-center">
                                 <div style="">
-                                    <a href="#fe_wm_giaodienmau">
-                                    <img src="{{URL::asset('images/Banner/loud-business-html5.jpg')}}" alt=""
+                                    <a href="http://hoclambanhngon.com/">
+                                    <img src="{{URL::asset('images/tkweb/screencapture-hoclambanhngon-2018-07-21-10_48_03.png')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
                                     </a>
                                 </div>
-                                <a href="#fe_wm_giaodienmau">
-                                <h4 class="mt-3">WEB BĐS</h4>
+                                <a href="http://hoclambanhngon.com/">
+                                <h4 class="mt-3">WEB DẠY HỌC</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
                             <div class="owl-item text-center">
                                 <div style="">
-                                    <a href="#fe_wm_giaodienmau">
-                                    <img src="{{URL::asset('images/Banner/images.jpg')}}" alt=""
+                                    <a href="http://ngangia.com.vn/">
+                                    <img src="{{URL::asset('images/tkweb/screencapture-ngangia-vn-2018-07-21-10_47_09.png')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
                                     </a>
                                 </div>
-                                <a href="#fe_wm_giaodienmau">
-                                <h4 class="mt-3">WEB TMĐT</h4>
+                                <a href="http://ngangia.com.vn/">
+                                <h4 class="mt-3">CỬA HÀNG ONLINE</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
                             <div class="owl-item text-center">
                                 <div style="">
-                                    <a href="#fe_wm_giaodienmau">
-                                    <img src="{{URL::asset('images/Banner/images2.jpg')}}" alt=""
+                                    <a href="http://tuvandinhcu.com.vn/">
+                                    <img src="{{URL::asset('images/tkweb/screencapture-tuvandinhcu-vn-2018-07-18-17_12_06.png')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
                                     </a>
                                 </div>
-                                <a href="#fe_wm_giaodienmau">
-                                <h4 class="mt-3">WEB NỘI THẤT</h4>
+                                <a href="http://tuvandinhcu.com.vn/">
+                                <h4 class="mt-3">DỊCH VỤ TƯ VẤN</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>
 
                             <div class="owl-item text-center">
                                 <div>
-                                    <a href="#fe_wm_giaodienmau">
-                                    <img src="{{URL::asset('images/Banner/responsive2.jpg')}}" alt=""
+                                    <a href="http://saigonreal365.com/">
+                                    <img src="{{URL::asset('images/tkweb/screencapture-saigonreal365-2018-07-18-17_16_39.png')}}" alt=""
                                          style="width: 70%;height: auto;margin: auto"> <br>
                                     </a>
                                 </div>
-                                <a href="#fe_wm_giaodienmau">
-                                <h4 class="mt-3">WEB DỊCH VỤ</h4>
+                                <a href="http://saigonreal365.com/">
+                                <h4 class="mt-3">BẤT ĐỘNG SẢN</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>

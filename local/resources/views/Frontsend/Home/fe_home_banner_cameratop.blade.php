@@ -171,10 +171,14 @@
                     {{--<p>ONLINE BUSSINESS IDEA</p>--}}
                     <h2 class="h2-fadein">CÔNG TY THIẾT KẾ WEBSITE CHUYÊN NGHIỆP</h2>
                     <p class="mb-5 p-fadein" style="font-size: 18px">
+
+                        - Chỉ
+                        <span style="font-size: 36px;color: greenyellow">3.900.000</span>
+                        sẽ mang đến cho khách hàng một trải nghiệm tuyệt vời. <br>
+                        - Giúp tăng doanh số, phát triển thương hiệu. <br>
                         - Website hiện đại giao diện đẹp. <br>
                         - Website tối ưu quảng cáo đạt chuẩn Google. <br>
-                        - Do các chuyên gia đạt chứng chỉ Google thực hiện. <br>
-                        - Chuẩn Google pagespeed 90/100.
+
                     </p>
 
                     <div class="d-flex align-items-center">

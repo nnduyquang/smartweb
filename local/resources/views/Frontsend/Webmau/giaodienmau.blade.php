@@ -33,6 +33,12 @@
         cursor: pointer;
     }
 
+    div#fe_wm_giaodienmau button.btn-xemdemo a:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+
     div#fe_wm_giaodienmau button.btn-xemdemo:hover{
         border:1px solid #0a95d1;
         background-color: #0a95d1;
@@ -86,66 +92,99 @@
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/2015-12-17-09-54-44-380x325.jpg')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-hoclambanhngon-2018-07-21-10_48_03.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="http://hoclambanhngon.com">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/demo2.wpdance.com-2016-01-14-11-09-45-380x427.jpg')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-localhost-8080-smls-webnova.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="chi-tiet.html">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/newsmartwave.net-2016-02-22-18-38-41-380x483.jpg')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-ngangia-vn-2018-07-21-10_47_09.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="http://ngangia.com.vn/">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/screencapture-380x466.png')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-tuvandinhcu-vn-2018-07-18-17_12_06.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="http://tuvandinhcu.com.vn">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/screenshot-demo.vegatheme.com-2016-04-15-10-11-01-380x519.png')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-xedienhoangnhat-2018-07-18-17_19_02.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="http://xedienhoangnhat.com/">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/sources/screenshot-mercor-new.premiumcoding.com-2015-12-16-17-10-51-380x421.png')}}"
+                    <img src="{{URL::asset('images/tkweb/screencapture-saigonreal365-2018-07-18-17_16_39.png')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo">XEM DEMO</button>
+                    <button class="btn-xemdemo"><a href="http://saigonreal365.com">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/screencapture-saigonintelahcm-2018-07-21-10_46_50.png')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="http://saigonintelahcm.com/">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/screencapture-diencoduyduong-2018-07-21-11_14_14.png')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="http://diencoduyduong.com/">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/screencapture-vlxdtaysaigon-2018-07-21-10_48_53.png')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="http://vlxdtaysaigon.com//">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>

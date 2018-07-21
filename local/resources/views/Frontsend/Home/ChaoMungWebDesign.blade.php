@@ -38,8 +38,8 @@ div#fe_h_CMWD p{
             </div>
             <div class="col-md-6">
                 <h5 class="pb-2 mb-4">WELCOME TO<span> WEB DESIGN</span></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet,
-                    massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam.</p>
+                <p>Smartlinks sẽ mang đến cho khách hàng một website giao diện hiện đại,
+                    thật chất lượng,chuẩn SEO, tối ưu quảng cáo đạt chuẩn Google.</p>
 
 
                 <span class="tit-span-tkw">UI/UX</span>
