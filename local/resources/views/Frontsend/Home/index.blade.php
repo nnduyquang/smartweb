@@ -11,7 +11,7 @@
     @include('Frontsend.Home.OurRecentPort')
     @include('Frontsend.Home.easy-interaction')
     {{--@include('Frontsend.Home.create-website-you-want')--}}
-    @include('Frontsend.Home.Fouder')
+    @include('Frontsend.Home.fouder')
     @include('Frontsend.price_list.pl_info')
     @include('Frontsend.Home.tintuc')
     @include('Frontsend.Home.TuVanThietKeWeb')

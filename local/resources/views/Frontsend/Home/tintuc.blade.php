@@ -106,7 +106,7 @@
                     ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam.</p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-5">
                 <div class="tintuc-element shadow-lg">
                     <div class="img-boder-zoom position-relative" style="width: 100%;overflow: hidden">
                         <img src="{{URL::asset('images/Banner/blog-post-01.jpg')}}" alt="">
@@ -127,7 +127,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-5">
                 <div class="tintuc-element shadow-lg">
                     <div class="img-boder-zoom position-relative" style="width: 100%;overflow: hidden">
                         <img src="{{URL::asset('images/Banner/blog-post-01.jpg')}}" alt="">
@@ -148,7 +148,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-5">
                 <div class="tintuc-element shadow-lg">
                     <div class="img-boder-zoom position-relative" style="width: 100%;overflow: hidden">
                         <img src="{{URL::asset('images/Banner/blog-post-01.jpg')}}" alt="">
