@@ -70,17 +70,16 @@
 
                 @for ($i = 0; $i < 3; $i++)
                     <div class="col-12 text-center">
-                        <h5>TESTIMONIALS</h5>
-                        <img src="{{URL::asset('images/icon/testimonial-1.jpg')}}" alt=""
+                        <h5>CTY QUỐC TẾ TOPTEN</h5>
+                        <img src="{{URL::asset('images/khachhang/27500270_10156713378129041_1853868422798601210_o.jpg')}}" alt=""
                              style="border-radius: 50%;border: 3px solid #bbbbbb;width: 86px;height: 86px;margin: auto">
 
-                        <p class="pl-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a elit.
-                            Proin auctor, neque ut facilisis sollicitudin, quam lacus consectetur massa,
-                            in mollis nibh lacus non ex. Sed eu diam dapibus, sollicitudin elit sit amet,
-                            pretium
-                            ligula. Nullam velit sapien dictum.</p>
+                        <p class="pl-3"> Tôi rất ấn tượng và hài lòng về quy trình chăm sóc khách hàng
+                            của họ. Tôi an tâm và không mất nhiều thời gian để quản lý website của mình.
+                            Ngoài thiết kế website họ còn hỗ trợ tôi marketing online rất hiệu quả"
+                            </p>
 
-                        <h6>KETY YORK</h6>
+                        <h6>Brady Phạm</h6>
                         <span>CEO & Founder</span>
 
 

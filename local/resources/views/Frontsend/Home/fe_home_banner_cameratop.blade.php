@@ -175,9 +175,9 @@
                         - Chỉ
                         <span style="font-size: 36px;color: greenyellow">3.900.000</span>
                         sẽ mang đến cho khách hàng một trải nghiệm tuyệt vời. <br>
-                        - Giúp tăng doanh số, phát triển thương hiệu. <br>
-                        - Website hiện đại giao diện đẹp. <br>
+                        - Một Website giao diện hiện đại, thật chất lượng. <br>
                         - Website tối ưu quảng cáo đạt chuẩn Google. <br>
+                        - Giúp tăng doanh số, phát triển thương hiệu. <br>
 
                     </p>
 
