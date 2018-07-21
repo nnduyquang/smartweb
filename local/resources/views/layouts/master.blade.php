@@ -16,8 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Cuprum|Roboto|Yanone+Kaffeesatz" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/v4-shims.css">
-    <link rel="stylesheet" href="{{URL::asset('owlcarousel/dist/assets/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('owlcarousel/dist/assets/owl.theme.default.min.css')}}">
+    {{--<link rel="stylesheet" href="{{URL::asset('owlcarousel/dist/assets/owl.carousel.min.css')}}">--}}
+    {{--<link rel="stylesheet" href="{{URL::asset('owlcarousel/dist/assets/owl.theme.default.min.css')}}">--}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Smartlinks Thiết kế website chuẩn seo , thiết kế web giá rẻ chất lượng</title>
     {{ Html::style('css/core.common.css') }}
@@ -50,7 +50,7 @@
 {{ Html::script('js/core.frontend.js') }}
 {{ Html::script('js/scripts.js') }}
 {{ Html::script('js/be_scripts.js') }}
-<script src="{{URL::asset('owlcarousel/dist/owl.carousel.min.js')}}"></script>
+{{--<script src="{{URL::asset('owlcarousel/dist/owl.carousel.min.js')}}"></script>--}}
 <script>
     new WOW().init();
 </script>

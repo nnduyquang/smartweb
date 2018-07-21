@@ -169,7 +169,7 @@
 </div>
 
 @section('script')
-    
+
     <script src="{{URL::asset('js/countUp.js')}}"></script>
     <script>
 

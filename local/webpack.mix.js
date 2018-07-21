@@ -10,12 +10,15 @@ mix.styles([
 ], '../js/core.common.js')
     .styles([
         'bower_components/wow/dist/wow.min.js','bower_components/waypoints/lib/noframework.waypoints.min.js',
+        'bower_components/owl.carousel/dist/owl.carousel.min.js',
     ], '../js/core.frontend.js')
 
 //CSS DÙNG CHUNG CHO FRONTEND VÀ BACKEND
     .styles([
         'bower_components/bootstrap/dist/css/bootstrap.min.css',
         'bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css',
+        'bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
+        'bower_components/owl.carousel/dist/assets/owl.theme.default.min.css',
         //'bower_components/Ionicons/css/ionicons.min.css',
         //'bower_components/fancybox/dist/jquery.fancybox.min.css',
     ], '../css/core.common.css')
