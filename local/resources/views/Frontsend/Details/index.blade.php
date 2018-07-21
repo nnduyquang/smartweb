@@ -160,10 +160,10 @@
 
                 <div class="col-md-7 text-center">
                     <div class="position-relative" style="width: 90%;border: 1px solid #f2f0f0;padding: 2px;margin: auto">
-                        <img src="{{URL::asset('images/banner/iphone_6_png_by_selenapurpleewdirect-2i.png')}}" alt=""
+                        <img src="{{URL::asset('images/Banner/iphone_6_png_by_selenapurpleewdirect-2i.png')}}" alt=""
                              style="width: 100%;height: auto;">
 
-                        <img src="{{URL::asset('images/banner/iphone_6_png_by_selenapurpleewdirect-d8bogti.png')}}"
+                        <img src="{{URL::asset('images/Banner/iphone_6_png_by_selenapurpleewdirect-d8bogti.png')}}"
                              alt=""
                              style="position: absolute;left: 45%;top:50%;height: 60%;width: auto;transform: translateY(-50%)">
                     </div>
