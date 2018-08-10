@@ -203,7 +203,7 @@
                             </div>
                         </div>
                     </li>
-                    <li><a class="{{ request()->is('tin-tuc/*') ? 'active' : '' }}" href="{{url('tin-tuc/tin-tuc.html')}}">TIN TỨC</a></li>
+                    <li><a class="{{ request()->is('tin-tuc/*') ? 'active' : '' }}" href="{{url('tin-tuc/danh-muc-tin-cong-nghe.html')}}">TIN TỨC</a></li>
                     <li><a class="{{ request()->is('ho-tro.html') ? 'active' : '' }}" href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
                 </ul>

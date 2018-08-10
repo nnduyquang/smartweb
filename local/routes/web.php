@@ -27,6 +27,9 @@ Route::get('/tin-tuc/tin-tuc.html', function () {
     return view('Frontsend.tintuc.index');
 });
 
+Route::get('/tin-tuc/danh-muc-tin-cong-nghe.html', function () {
+    return view('Frontsend.tintuc.danhmuc-tintuc');
+});
 
 Route::get('/ho-tro.html', function () {
     return view('Frontsend.Pages.hotro');

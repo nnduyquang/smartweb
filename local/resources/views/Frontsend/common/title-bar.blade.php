@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row d-flex justify-content-start">
             <div class="col-md-5 mt-5 mb-5 text-left" id="hosting_content">
-                <h3 class="wow zoomIn"><a href="">TIN TỨC / TƯ VẤN THIẾT KẾ WEB </a></h3>
+                <h3 class="wow zoomIn"><a href="">TIN TỨC / ĐIỂM TIN CÔNG NGHỆ </a></h3>
             </div>
         </div>
     </div>
