@@ -124,7 +124,7 @@
                                     </a>
                                 </div>
                                 <a href="http://ngangia.com.vn/">
-                                <h4 class="mt-3">CỬA HÀNG ONLINE</h4>
+                                <h4 class="mt-3">THƯƠNG MẠI ĐIỆN TỬ</h4>
                                 {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--}}
                                 </a>
                             </div>

@@ -27,6 +27,14 @@ Route::get('/tin-tuc/tin-tuc.html', function () {
     return view('Frontsend.tintuc.index');
 });
 
+Route::get('/tin-tuc/xay-dung-back-link.html', function () {
+    return view('Frontsend.tintuc.tintuc2');
+});
+
+Route::get('/tin-tuc/website-chuan-seo-google.html', function () {
+    return view('Frontsend.tintuc.tintuc3');
+});
+
 Route::get('/tin-tuc/danh-muc-tin-cong-nghe.html', function () {
     return view('Frontsend.tintuc.danhmuc-tintuc');
 });

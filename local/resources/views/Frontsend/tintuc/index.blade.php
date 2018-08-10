@@ -85,7 +85,7 @@
     <div class="container-fluid pt-5" id="fe_tintuc_content">
         <div class="container">
             <div class="row mb-5 pb-5 ">
-                <div class="col-md-9 border-bottom mb-4">
+                <div class="col-md-8 border-bottom mb-4">
                     <img class="border" src="http://oneoffice.com.vn/Content/UserFiles/Images/News/website-thuong-mai-dien-tu-2018.jpg" alt="">
                     <h5 class="pt-4 text-primary"><a href="{{URL::asset('tin-tuc/tin-tuc.html')}}">5 Xu hướng thiết kế website thương mại điện tử nổi bật năm 2018</a></h5>
                     <span>Ngày đăng 29/03/2018</span>
@@ -221,45 +221,7 @@
                         <br><br>
                     </p>
                 </div>
-                <div class="col-md-3 p-0" id="fe_tt_lienQuan">
-                    <h4>TIN TỨC <span>SỰ KIỆN</span></h4>
-
-                    <div class="d-flex align-items-center border mb-1">
-                        <img src="http://oneoffice.com.vn/Content/UserFiles/Images/News/website-thuong-mai-dien-tu-2018.jpg" alt="" style="width: 80px;height: auto">
-                        <p class="pt-2">
-                            <a href="">
-                                5 xu hướng thiết kế website thương mại điện tử nổi bật năm 2018
-                            </a>
-                            <br>
-                        <span>Posted : 30-04-2018</span></p>
-                    </div>
-
-                    <div class="d-flex align-items-center border mb-1">
-                        <img src="http://oneoffice.com.vn/Content/UserFiles/Images/News/website-thuong-mai-dien-tu-2018.jpg" alt="" style="width: 80px;height: auto">
-                        <p class="pt-2">
-                            <a href="">
-                                5 xu hướng thiết kế website thương mại điện tử nổi bật năm 2018
-                            </a>
-                            <br>
-                            <span>Posted : 30-04-2018</span></p>
-                    </div>
-
-                    <div class="d-flex align-items-center border mb-1">
-                        <img src="http://oneoffice.com.vn/Content/UserFiles/Images/News/website-thuong-mai-dien-tu-2018.jpg" alt="" style="width: 80px;height: auto">
-                        <p class="pt-2">
-                            <a href="">
-                                5 xu hướng thiết kế website thương mại điện tử nổi bật năm 2018
-                            </a>
-                            <br>
-                            <span>Posted : 30-04-2018</span></p>
-                    </div>
-
-
-
-
-
-
-                </div>
+                @include('Frontsend.tintuc.tintuc-sukien')
             </div>
         </div>
     </div>

@@ -55,7 +55,7 @@
         background-color: transparent;
     }
 
-    div#fe_h_OurRecentPort a:hover{
+    div#fe_h_OurRecentPort a.btn-type:hover{
         text-decoration: none;
         background-color: #001342;
         border: 2px solid #001342;
@@ -220,7 +220,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h5>DỰ ÁN <span>ĐÃ THỰC HIỆN</span></h5>
+                <h5>DỰ ÁN <span>GẦN ĐÂY</span></h5>
                 <p>
                     Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế website và marketing online,
                     Những website chúng tôi thiết kế luôn dựa trên những tiêu chuẩn thiết kế có lợi cho khách hàng.
