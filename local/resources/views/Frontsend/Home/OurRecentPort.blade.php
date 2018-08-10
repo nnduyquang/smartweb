@@ -55,7 +55,7 @@
         background-color: transparent;
     }
 
-    div#fe_h_OurRecentPort a:hover{
+    div#fe_h_OurRecentPort a.btn-type:hover{
         text-decoration: none;
         background-color: #001342;
         border: 2px solid #001342;
