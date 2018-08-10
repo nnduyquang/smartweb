@@ -31,7 +31,7 @@
     }
 
     span.easy_interaction-p{
-        font-size: 22px;
+        font-size: 16px;
         font-family: 'Encode Sans Condensed', sans-serif;
     }
 

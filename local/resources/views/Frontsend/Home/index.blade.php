@@ -9,7 +9,7 @@
     {{--@include('Frontsend.Home.slogan')--}}
     @include('Frontsend.Home.responsive_web')
     @include('Frontsend.Home.OurRecentPort')
-    @include('Frontsend.Home.easy-interaction')
+    @include('Frontsend.Home.QuyTrinhTrienKhai')
     {{--@include('Frontsend.Home.create-website-you-want')--}}
     @include('Frontsend.Home.fouder')
     @include('Frontsend.price_list.pl_info')

@@ -18,7 +18,7 @@
     div#layout_master_topmenu_sticky_middle ul li {
         display: inline-flex;
         box-sizing: border-box;
-
+        margin-right: -6px;
     }
 
     div#layout_master_topmenu_sticky_middle ul li a {
@@ -27,9 +27,10 @@
         line-height: 86px;
         font-size: 18px;
         font-family: 'Asap Condensed', sans-serif;
-        padding: 10px 8px;
+        padding: 10px 16px;
         box-sizing: border-box;
         transition: .3s;
+        border-bottom: 2px solid white;
     }
 
     div#layout_master_topmenu_sticky_middle ul li a:hover {
@@ -39,6 +40,18 @@
         box-sizing: border-box;
         background-color: #00a6da;
         color: white;
+        border-bottom: 2px solid #00a6da;
+
+    }
+
+    div#layout_master_topmenu_sticky_middle ul li a.active {
+        color: #00a6da;
+        text-decoration: none;
+        /*border-bottom: 3px solid #00a6da;*/
+        box-sizing: border-box;
+        background-color: #00a6da;
+        color: white;
+        border-bottom: 2px solid #002752;
 
     }
 
@@ -97,7 +110,7 @@
         }
         
         div#smart_web_menu{
-            background-image: url(images/bg/IehB7.png);
+            background-image: url({{URL::asset('images/bg/IehB7.png')}});
             background-repeat: no-repeat;
             background-size: auto 100%;
             background-position: right center;
@@ -165,7 +178,7 @@
                     <div class="col-md-12 align-self-center">
 
                         <a href="{{URL::to('/')}}">
-                            <img src="images/logo/Untitled-2.png" alt="" class="logo" style="width: 276px;height: 90%">
+                            <img src="{{URL::asset('images/logo/Untitled-2.png')}}" alt="" class="logo" style="width: 276px;height: 90%">
                         </a>
                     </div>
                 </div>
@@ -175,26 +188,27 @@
                 <ul>
 
                     {{--<li><a href="">GIỚI THIỆU</a></li>--}}
-                    <li><a href="{{url('/')}}">TRANG CHỦ</a></li>
-                    <li><a href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
-                    <li><a href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
+                    <li><a class="{{ request()->is('/') ? 'active' : '' }}" href="{{url('/')}}">TRANG CHỦ</a></li>
+                    <li><a class="{{ request()->is('website-mau.html') ? 'active' : '' }}" href="{{url('website-mau.html')}}">KHO GIAO DIỆN</a></li>
+                    <li><a class="{{ request()->is('bang-gia.html') ? 'active' : '' }}" href="{{URL::to('bang-gia.html')}}">BẢNG GIÁ</a></li>
                     <li><div class="position-relative" id="dv_content">
-                            <a href="">DỊCH VỤ KHÁC</a>
+                            <a href="{{url('dich-vu/hosting.html')}}" class="{{ request()->is('dich-vu/*') ? 'active' : '' }}">DỊCH VỤ KHÁC</a>
                             <div class="position-absolute" id="dichvu_khac">
                                 <ul>
-                                    <li><a href="{{url('hosting.html')}}" class="dichvu-khac">HOSTING & TÊN MIỀN</a></li>
-                                    <li><a href="{{URL::to('quan-tri-website.html')}}" class="dichvu-khac">DỊCH VỤ QUẢN TRỊ WEB</a></li>
+                                    <li><a href="{{url('dich-vu/hosting.html')}}" class="dichvu-khac">HOSTING & TÊN MIỀN</a></li>
+                                    <li><a href="{{URL::to('dich-vu/quan-tri-website.html')}}" class="dichvu-khac">DỊCH VỤ QUẢN TRỊ WEB</a></li>
                                     <li><a href="" class="dichvu-khac">DỊCH VỤ DIGITAL MARKETING</a></li>
                                     <li><a href="" class="dichvu-khac">DỊCH VỤ EMAIL DOANH NGHIỆP</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
+                    <li><a class="{{ request()->is('tin-tuc/*') ? 'active' : '' }}" href="{{url('tin-tuc/tin-tuc.html')}}">TIN TỨC</a></li>
+                    <li><a class="{{ request()->is('ho-tro.html') ? 'active' : '' }}" href="{{url('ho-tro.html')}}">HỖ TRỢ</a></li>
 
                 </ul>
             </div>
-            <div class="col-md-2 p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-between"
+            <div class="col-md-auto p-0 align-items-center text-right d-flex justify-content-lg-end justify-content-between"
                  id="layout_master_topmenu_sticky_right">
                 <div id="mobi_menu" class="d-lg-none d-md-none d-sm-block">
                     <button href=""><i class="fas fa-bars"></i> MENU</button>
@@ -202,10 +216,10 @@
 
                 <ul class="h-social-nw pt-1">
                     <li class="d-lg-none d-md-none d-sm-none d-none"><a href=""><i class="fas fa-shopping-cart"></i></a></li>
-                    <li><a href=""><i class="fas fa-search"></i></a></li>
-                    <li><a href=""><i class="fab fa-facebook-f border-left pl-2"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-google-plus "></i></a></li>
+                    {{--<li><a href=""><i class="fas fa-search"></i></a></li>--}}
+                    <li><a href=""><i class="fab fa-facebook-f "></i></a></li>
+                    {{--<li><a href=""><i class="fab fa-twitter"></i></a></li>--}}
+                    <li><a href=""><i class="fab fa-google-plus border-left pl-2"></i></a></li>
                 </ul>
             </div>
         </div>

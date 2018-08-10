@@ -23,12 +23,16 @@ Route::get('/bang-gia.html', function () {
     return view('Frontsend.price_list.index');
 });
 
+Route::get('/tin-tuc/tin-tuc.html', function () {
+    return view('Frontsend.tintuc.index');
+});
+
 
 Route::get('/ho-tro.html', function () {
     return view('Frontsend.Pages.hotro');
 });
 
-Route::get('/hosting.html', function () {
+Route::get('dich-vu/hosting.html', function () {
     return view('Frontsend.Hosting.index');
 });
 
@@ -36,7 +40,7 @@ Route::get('/chi-tiet.html', function () {
     return view('Frontsend.Details.index');
 });
 
-Route::get('/quan-tri-website.html', function () {
+Route::get('dich-vu/quan-tri-website.html', function () {
     return view('Frontsend.website_manage.index');
 });
 

@@ -32,7 +32,7 @@
         font-weight: 400;
     }
 
-    div#fe_h_OurRecentPort button.active {
+    div#fe_h_OurRecentPort a.btn-type.active {
         margin-bottom: 10px;
         border-radius: 5px;
         font-size: 18px;
@@ -43,7 +43,8 @@
         color: white;
     }
 
-    div#fe_h_OurRecentPort button {
+    div#fe_h_OurRecentPort a.btn-type {
+        color: #001342;
         cursor: pointer;
         margin-bottom: 10px;
         border-radius: 5px;
@@ -52,6 +53,13 @@
         padding: 10px 18px;
         border: 2px solid #001342;
         background-color: transparent;
+    }
+
+    div#fe_h_OurRecentPort a:hover{
+        text-decoration: none;
+        background-color: #001342;
+        border: 2px solid #001342;
+        color: white;
     }
 
     div.or-services {
@@ -134,6 +142,7 @@
 
     div.or-services p {
         position: absolute;
+        line-height: 18px;
         z-index: 14;
         color: white;
         top: 95%;
@@ -211,18 +220,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h5>OUR RECENT <span>PORTFOLIOS</span></h5>
+                <h5>DỰ ÁN <span>ĐÃ THỰC HIỆN</span></h5>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet,
-                    massa ac ornare feugiat,nunc dui auctor ipsum, sed posuere eros sapien id quam.
+                    Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế website và marketing online,
+                    Những website chúng tôi thiết kế luôn dựa trên những tiêu chuẩn thiết kế có lợi cho khách hàng.
                 </p>
 
                 <div class="mb-4">
-                    <button class="btn-type active">All Jobs</button>
-                    <button class="btn-type">Branding</button>
-                    <button class="btn-type">Financing</button>
-                    <button class="btn-type">Marketing</button>
-                    <button class="btn-type">promotion</button>
+                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type active">Tất cả</a>
+                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Thương hiệu</a>
+                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Dịch vụ</a>
+                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Marketing</a>
+                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Shop</a>
                 </div>
 
                 <div class="row">
@@ -232,18 +241,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                    <a href="">
+                                    <a href="{{URL::asset('website-mau.html')}}">
                                         <i class="fas fa-search"></i>
                                     </a>
                                     </div>
                                     <div>
-                                    <a href="">
+                                    <a href="http://saigonreal365.com/">
                                         <i class="fas fa-link"></i>
                                     </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Website Bất động sản</h6>
+                                <p style="color: white">Chuyên trang thương mại về bất động sản.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/1.jpg')}}" alt="">
 
@@ -255,18 +264,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                        <a href="">
+                                        <a href="{{URL::asset('website-mau.html')}}">
                                             <i class="fas fa-search"></i>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <a href="http://tuvandinhcu.com.vn/">
                                             <i class="fas fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Website Tư vấn định cư</h6>
+                                <p style="color: white">Website về tư vấn định cư hỗ trợ định cư nước ngoài.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/2.jpg')}}" alt="">
                         </div>
@@ -277,18 +286,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                        <a href="">
+                                        <a href="{{URL::asset('website-mau.html')}}">
                                             <i class="fas fa-search"></i>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <a href="http://smartlinks.vn/">
                                             <i class="fas fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Dịch vụ Marketing Online</h6>
+                                <p class="mt-2" style="color: white">Chúng tôi đưa ra các giải pháp Marketing Online tối ưu nhất.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/3.jpg')}}" alt="">
                         </div>
@@ -299,18 +308,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                        <a href="">
+                                        <a href="{{URL::asset('website-mau.html')}}">
                                             <i class="fas fa-search"></i>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <a href="http://tuyendungbatdongsan.com/">
                                             <i class="fas fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Website Tuyển Dụng BĐS</h6>
+                                <p style="color: white">Chuyên Trang Tuyển Dụng Bất Động Sản</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/4.jpg')}}" alt="">
 
@@ -322,18 +331,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                        <a href="">
+                                        <a href="{{URL::asset('website-mau.html')}}">
                                             <i class="fas fa-search"></i>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <a href="http://xedienhoangnhat.com/">
                                             <i class="fas fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Dịch vụ sửa chửa xe điện</h6>
+                                <p style="color: white">Website cung cấp dịch vụ sửa chửa xe điện.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/5.jpg')}}" alt="">
 
@@ -345,18 +354,18 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                        <a href="">
+                                        <a href="{{URL::asset('website-mau.html')}}">
                                             <i class="fas fa-search"></i>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <a href="http://ngangia.com.vn/">
                                             <i class="fas fa-link"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <h6>Ecommerce Solution</h6>
-                                <p style="color: white">Lorem ipsum dolor amet consectetur</p>
+                                <h6>Website thương mại điện tử</h6>
+                                <p style="color: white">Cung cấp website bán hàng Online thông minh.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/6.jpg')}}" alt="">
 

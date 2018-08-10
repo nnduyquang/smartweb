@@ -4,7 +4,7 @@
     }
 
     div#layout_master_footer {
-        background-image: url(images/bg/body.png);
+        background-image: url({{URL::asset('images/bg/body.png')}});
         color: white;
     }
 
@@ -82,7 +82,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-12">
                 <ul class="">
-                    <li class="pb-3"><img src="images/logo/logo-footer.png" alt="" style="width: 100%;height: auto;">
+                    <li class="pb-3"><img src="{{URL::asset('images/logo/logo-footer.png')}}" alt="" style="width: 100%;height: auto;">
                     </li>
                     <li>Khách hàng trao niềm tin chúng tôi tạo nên thương hiệu.</li>
                     <li>Khách hàng là giá trị là tài sản quý giá để đồng hành cùng phát triển.

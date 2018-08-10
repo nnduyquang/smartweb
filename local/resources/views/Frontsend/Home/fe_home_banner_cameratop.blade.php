@@ -1,7 +1,7 @@
 <style>
 
     div#master_banner_camera_top {
-        background-image: url('images/bg/slider-2-1.jpg');
+        background-image: url({{URL::asset('images/bg/slider-2-1.jpg')}});
         background-size: cover;
         position: relative;
         background-attachment: fixed;
@@ -162,7 +162,7 @@
 
 <div class="container-fluid p-0 mb-4" id="master_banner_camera_top">
     <div class="computer-slider position-relative" style="overflow: hidden;">
-        <img src="images/bg/computer_2.png" alt=""
+        <img src="{{URL::asset('images/bg/computer_2.png')}}" alt=""
              style="z-index: 1;width: 60%;height: auto;float: right;position: absolute;-webkit-animation: mymove 1s; /* Safari 4.0 - 8.0 */
     animation: mymove 1s;right: 0;bottom: 0">
         <div class="container pt-5 pb-5">

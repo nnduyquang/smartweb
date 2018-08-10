@@ -1,6 +1,6 @@
 <style>
     div#webmau_banner {
-        background-image: url({{URL::asset('images/Banner/serwery.jpg')}});
+        background-image: url({{URL::asset('images/bg/slider-bg12.jpg')}});
         background-attachment: fixed;
         background-position: center top;
         -webkit-background-size: cover;
@@ -10,8 +10,14 @@
 
     div#webmau_banner h3 {
         position: relative;
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    div#webmau_banner h3 a{
+        color:white ;
+    }
+    div#webmau_banner h3 a:hover{
+        text-decoration: none;
     }
 
     div#webmau_banner h2 {
@@ -28,19 +34,19 @@
     }
 
     div#hosting_content{
-        background-color:rgba(00,00,00,0.5);
+        /*background-color:rgba(00,00,00,0.5);*/
         padding: 20px;
     }
 
-    div#webmau_banner h3:before {
-        position: absolute;
-        content: '';
-        height: 3px;
-        width: 68px;
-        background-color: #87c931;
-        right: 0%;
-        bottom: -10px;
-    }
+    /*div#webmau_banner h3:after {*/
+        /*position: absolute;*/
+        /*content: '';*/
+        /*height: 3px;*/
+        /*width: 68px;*/
+        /*background-color: #87c931;*/
+        /*right: 0%;*/
+        /*bottom: -10px;*/
+    /*}*/
 
     div#webmau_banner button{
         cursor: pointer;
@@ -85,17 +91,9 @@
 </style>
 <div class="container-fluid" id="webmau_banner">
     <div class="container">
-        <div class="row d-flex justify-content-end">
-            <div class="col-md-5 mt-5 mb-5 text-right" id="hosting_content">
-                <h3 class="wow zoomIn">DỊCH VỤ HOSTING</h3>
-                <h2 class="wow fadeIn" data-wow-delay="0.5s">Smartlinks Wesbite cung cấp dịch vụ Hosting, tên miền Quốc Tế và tên miền Việt Nam.</h2>
-                <p class="wow fadeIn" data-wow-delay="0.5s">Smartlinks Website chuyên tư vấn hosting và tên miền phù hợp với yêu cầu, nhu cầu của khách hàng,
-                giúp khách hàng tối ưu kinh phí nâng cao lợi nhuận</p>
-                <img class="wow fadeIn" data-wow-delay="1s" src="{{URL::asset('images/Banner/hosting.png')}}" alt=""
-                     style="width: 50%;height: auto;">
-                <br>
-                <button class="price-hosting wow bounceIn" data-wow-delay="1.3s"><a href="#banggia_hosting">BẢNG GIÁ HOSTING</a></button>
-                <button class="chk-tenmien wow bounceIn" data-wow-delay="1.5s">KIỂM TRA TÊN MIỀN</button>
+        <div class="row d-flex justify-content-start">
+            <div class="col-md-5 mt-5 mb-5 text-left" id="hosting_content">
+                <h3 class="wow zoomIn"><a href="">TIN TỨC / TƯ VẤN THIẾT KẾ WEB </a></h3>
             </div>
         </div>
     </div>
