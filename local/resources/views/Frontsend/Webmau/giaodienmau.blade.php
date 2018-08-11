@@ -206,7 +206,7 @@
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo"><a href="{{URL::asset('chi-tiet.html')}}">XEM DEMO</a></button>
+                    <button class="btn-xemdemo"><a href="{{URL::asset('chi-tiet-web-online-shopping.html')}}">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>

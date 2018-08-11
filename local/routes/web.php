@@ -51,6 +51,11 @@ Route::get('/chi-tiet.html', function () {
     return view('Frontsend.Details.index');
 });
 
+Route::get('/chi-tiet-web-online-shopping.html', function () {
+    return view('Frontsend.Details.index2');
+});
+
+
 Route::get('dich-vu/quan-tri-website.html', function () {
     return view('Frontsend.website_manage.index');
 });
