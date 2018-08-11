@@ -95,6 +95,7 @@
                     <p>Hơi chậm nhưng cũng có nguyên nhân của nó. Khi mà Google cập nhật thuật toán Penguin. Như chúng ta đã biết hiện này Google sử dụng hơn 200 tín hiệu để xếp hạng website (chia ra hơn 1000 tín hiệu nhỏ) nhằm giúp người dùng có những trải nghiệm tốt hơn, tìm kiếm thông tin dịch vụ sản phẩm một cách nhanh nhất và chính xác nhất. Vào ngày 23/09 vừa qua Gary Illyes đã đăng 1 bài viết trên Webmaster Central Blog có khẳng định: Thuật toán Google Penguine là thuật toán gốc cốt lõi của Google.</p>
 
                     <img src="https://ecom-ftu.net/wp-content/uploads/2017/03/backlinks2.jpg" alt="">
+                    {{----}}
 
                     <br>
 
