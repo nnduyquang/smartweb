@@ -184,7 +184,40 @@
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo"><a href="http://vlxdtaysaigon.com//">XEM DEMO</a></button>
+                    <button class="btn-xemdemo"><a href="http://vlxdtaysaigon.com">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/webmau1.jpg')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="http://tuyendungbatdongsan.com">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/webmau2.jpg')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="{{URL::asset('chi-tiet.html')}}">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/banner/webmau-so3.jpg')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="http://thinhphatlighting.com/">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>

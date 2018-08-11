@@ -32,7 +32,7 @@
         font-weight: 400;
     }
 
-    div#fe_h_OurRecentPort a.btn-type.active {
+    div#fe_h_OurRecentPort button.btn-type.active {
         margin-bottom: 10px;
         border-radius: 5px;
         font-size: 18px;
@@ -43,10 +43,10 @@
         color: white;
     }
 
-    div#fe_h_OurRecentPort a.btn-type {
+    div#fe_h_OurRecentPort button.btn-type {
         color: #001342;
         cursor: pointer;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         border-radius: 5px;
         border: none;
         font-size: 16px;
@@ -55,7 +55,11 @@
         background-color: transparent;
     }
 
-    div#fe_h_OurRecentPort a.btn-type:hover{
+    div#fe_h_OurRecentPort button.btn-type a:hover{
+        text-decoration: none;
+    }
+
+    div#fe_h_OurRecentPort button.btn-type:hover {
         text-decoration: none;
         background-color: #001342;
         border: 2px solid #001342;
@@ -164,15 +168,13 @@
         opacity: 0;
     }
 
-
-
     div.or-services div.or-services-overlay-a div {
         width: 48px;
         height: 48px;
         border-radius: 50%;
         margin-right: 10px;
         text-align: center;
-        background-color: rgba(00,00,00,0.3);
+        background-color: rgba(00, 00, 00, 0.3);
         margin-right: 3px;
         margin-left: 3px;
         float: left;
@@ -186,19 +188,18 @@
 
     div.or-services div.or-services-overlay-a div:hover {
 
-        background-color: rgba(00,00,00,0.8);
+        background-color: rgba(00, 00, 00, 0.8);
 
     }
 
-    div.or-services div.or-services-overlay-a div a{
+    div.or-services div.or-services-overlay-a div a {
         color: white;
     }
 
-    div.or-services div.or-services-overlay-a a i{
-       font-size: 18px;
+    div.or-services div.or-services-overlay-a a i {
+        font-size: 18px;
         line-height: 48px;
     }
-
 
     div.or-services:hover p {
         opacity: 1;
@@ -227,11 +228,11 @@
                 </p>
 
                 <div class="mb-4">
-                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type active">Tất cả</a>
-                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Thương hiệu</a>
-                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Dịch vụ</a>
-                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Marketing</a>
-                    <a href="{{URL::asset('website-mau.html')}}" class="btn-type">Shop</a>
+                    <button class="btn-type active"><a href="{{URL::asset('website-mau.html')}}" class="btn-type active">Tất cả</a></button>
+                    <button class="btn-type"><a href="{{URL::asset('website-mau.html')}}" >Thương hiệu</a></button>
+                    <button class="btn-type"><a href="{{URL::asset('website-mau.html')}}" >Dịch vụ</a></button>
+                    <button class="btn-type"><a href="{{URL::asset('website-mau.html')}}" >Marketing</a></button>
+                    <button class="btn-type"><a href="{{URL::asset('website-mau.html')}}" >Shop</a></button>
                 </div>
 
                 <div class="row">
@@ -241,14 +242,14 @@
                             <div class="or-services-overlay">
                                 <div class="or-services-overlay-a">
                                     <div>
-                                    <a href="{{URL::asset('website-mau.html')}}">
-                                        <i class="fas fa-search"></i>
-                                    </a>
+                                        <a href="{{URL::asset('website-mau.html')}}">
+                                            <i class="fas fa-search"></i>
+                                        </a>
                                     </div>
                                     <div>
-                                    <a href="http://saigonreal365.com/">
-                                        <i class="fas fa-link"></i>
-                                    </a>
+                                        <a href="http://saigonreal365.com/">
+                                            <i class="fas fa-link"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <h6>Website Bất động sản</h6>
@@ -297,7 +298,8 @@
                                     </div>
                                 </div>
                                 <h6>Dịch vụ Marketing Online</h6>
-                                <p class="mt-2" style="color: white">Chúng tôi đưa ra các giải pháp Marketing Online tối ưu nhất.</p>
+                                <p class="mt-2" style="color: white">Chúng tôi đưa ra các giải pháp Marketing Online tối
+                                    ưu nhất.</p>
                             </div>
                             <img src="{{URL::asset('images/Banner/3.jpg')}}" alt="">
                         </div>
