@@ -222,6 +222,17 @@
                 </div>
             </div>
 
+            <div class="col-md-4 text-center mb-5">
+                <div style="height: 338px;overflow: hidden">
+                    <img src="{{URL::asset('images/tkweb/screencapture-localhost-8080-SMLOto.jpg')}}"
+                         alt="" style="width: 99%;margin: auto;height: auto">
+                </div>
+                <div style="width: 100%" class="d-flex justify-content-between mt-3">
+                    <button class="btn-xemdemo"><a href="{{URL::asset('/website-xe-hoi.html')}}">XEM DEMO</a></button>
+                    <button class="btn-chongd">CHỌN GIAO DIỆN</button>
+                </div>
+            </div>
+
             <div class="col-md-12">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination pagination-sm justify-content-center">

@@ -51,6 +51,10 @@ Route::get('/chi-tiet.html', function () {
     return view('Frontsend.Details.index');
 });
 
+Route::get('/website-xe-hoi.html', function () {
+    return view('Frontsend.Details.website-xe-hoi');
+});
+
 Route::get('/chi-tiet-web-online-shopping.html', function () {
     return view('Frontsend.Details.index2');
 });
