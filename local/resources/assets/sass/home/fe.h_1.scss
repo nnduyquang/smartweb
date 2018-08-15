@@ -1,0 +1,79 @@
+#h_1 {
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  .computer-slider {
+    z-index: 1;
+    p{
+      font-size: 18px;
+      opacity: 0;
+      animation: mymove1 1s;
+      animation-delay: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 20px 0px 20px 0px;
+    }
+    h2.h2-fadein{
+      opacity: 0;
+      animation: mymove2 1s;
+      animation-delay: 1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    button.first, button.last {
+      margin-top: 5px;
+      font-family: 'Asap Condensed', sans-serif;
+      cursor: pointer;
+      border-radius: 30px;
+      color: white;
+      font-size: 16px;
+      padding: 12px;
+      font-weight: 500;
+      transition: .3s;
+      opacity: 0;
+      animation: mymove 1s;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+      &:hover {
+        background-color: white;
+        color: #066a94;
+      }
+    }
+    button.first {
+      background-color: #7bb233;
+      border: 0;
+    }
+    button.last {
+      background-color: #074b73;
+      border: 1px solid white;
+    }
+  }
+  @keyframes mymove {
+    from {
+      right: -10%;
+      opacity: 0.3;
+    }
+    to {
+      right: 0%;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes mymove1 {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes mymove2 {
+    from {
+      transform: scale(0.3);
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

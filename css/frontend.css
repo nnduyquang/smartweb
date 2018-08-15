@@ -430,3 +430,295 @@
   margin: 20px 0;
 }
 
+#menu {
+  background-image: none;
+}
+
+#menu #menu-left .logo {
+  height: 86px;
+  width: auto;
+}
+
+#menu #menu-middle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu #menu-middle ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: -6px;
+}
+
+#menu #menu-middle ul li #dv_content #dichvu_khac {
+  text-align: center;
+  margin-top: 1px;
+  z-index: 12;
+  display: none;
+  font-size: 18px;
+  font-family: 'Asap Condensed', sans-serif;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: white;
+  top: 0%;
+  background-color: #05a3d4;
+  transition: .3s;
+}
+
+#menu #menu-middle ul li #dv_content #dichvu_khac ul li {
+  margin-bottom: 1px;
+  display: block;
+}
+
+#menu #menu-middle ul li #dv_content #dichvu_khac ul li a {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  display: block;
+  min-width: 200px;
+  background-color: #05a3d4;
+  border-bottom: 1px solid white;
+}
+
+#menu #menu-middle ul li #dv_content #dichvu_khac ul li a:hover {
+  padding-left: 13px;
+}
+
+#menu #menu-middle ul li #dv_content:hover #dichvu_khac {
+  display: block;
+  top: 100%;
+}
+
+#menu #menu-middle ul li a {
+  display: inline-block;
+  color: #4e4e4e;
+  line-height: 86px;
+  font-size: 18px;
+  font-family: 'Asap Condensed', sans-serif;
+  padding: 10px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-bottom: 2px solid white;
+}
+
+#menu #menu-middle ul li a:hover {
+  color: #00a6da;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #00a6da;
+  color: white;
+  border-bottom: 2px solid #00a6da;
+}
+
+#menu #menu-middle ul li a:hover:hover #dv_content {
+  background-color: #05a3d4;
+}
+
+#menu #menu-middle ul li a.active {
+  color: #00a6da;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #00a6da;
+  color: white;
+  border-bottom: 2px solid #002752;
+}
+
+#menu #menu-right ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu #menu-right ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 3px;
+}
+
+#menu #menu-right ul li a {
+  color: #8e8e8e;
+  font-size: 20px;
+}
+
+#menu #menu-right ul li a:hover {
+  color: #4e4e4e;
+}
+
+#menu #menu-right ul li a i.fa-google-plus:hover {
+  color: red;
+}
+
+#menu #menu-right ul li a i.fa-facebook-f:hover {
+  color: #035670;
+}
+
+@media only screen and (max-width: 770px) {
+  #menu {
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right center;
+  }
+
+  #menu #menu-left .logo {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  #menu #menu-right #mobi_menu {
+    font-size: 20px;
+  }
+
+  #menu #menu-right #mobi_menu button {
+    border: transparent;
+    background-color: transparent;
+    color: #696969;
+  }
+}
+
+.mess_desk_bot {
+  position: fixed;
+  bottom: 58px;
+  right: 27px;
+  z-index: 2;
+}
+
+.mess_desk_bot a.hotline-master {
+  border-top: 2px #00bbff solid;
+  background-color: #019934;
+  color: white;
+  padding: 11px;
+  border-radius: 12px;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#h_1 {
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#h_1 .computer-slider {
+  z-index: 1;
+}
+
+#h_1 .computer-slider p {
+  font-size: 18px;
+  opacity: 0;
+  -webkit-animation: mymove1 1s;
+          animation: mymove1 1s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  padding: 20px 0px 20px 0px;
+}
+
+#h_1 .computer-slider h2.h2-fadein {
+  opacity: 0;
+  -webkit-animation: mymove2 1s;
+          animation: mymove2 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+#h_1 .computer-slider button.first,
+#h_1 .computer-slider button.last {
+  margin-top: 5px;
+  font-family: 'Asap Condensed', sans-serif;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  font-weight: 500;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+  -webkit-animation: mymove 1s;
+          animation: mymove 1s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#h_1 .computer-slider button.first:hover,
+#h_1 .computer-slider button.last:hover {
+  background-color: white;
+  color: #066a94;
+}
+
+#h_1 .computer-slider button.first {
+  background-color: #7bb233;
+  border: 0;
+}
+
+#h_1 .computer-slider button.last {
+  background-color: #074b73;
+  border: 1px solid white;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    right: -10%;
+    opacity: 0.3;
+  }
+
+  to {
+    right: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes mymove {
+  from {
+    right: -10%;
+    opacity: 0.3;
+  }
+
+  to {
+    right: 0%;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes mymove1 {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes mymove2 {
+  from {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+

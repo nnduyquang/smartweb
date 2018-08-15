@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('Frontsend.Home.index');
 });
+Route::get('/', function () {
+    return view('frontend.home.index');
+});
 
 Route::get('/website-mau.html', function () {
     return view('Frontsend.Webmau.index');
