@@ -26,6 +26,8 @@
     "animate.css": "^3.5.2",
     "jquery.marquee": "jQuery.Marquee#^1.5.0",
     "owl.carousel": "^2.3.4",
-    "wow": "^1.1.2"
+    "wow": "^1.1.2",
+    "countUp.js": "^1.9.3",
+    "waypoints": "^4.0.1"
   }
 }

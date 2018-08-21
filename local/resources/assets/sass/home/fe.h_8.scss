@@ -1,0 +1,24 @@
+#h_8 {
+  background-color: #0a95d1;
+  p {
+    font-size: 48px;
+    line-height: 18px;
+    span {
+      font-size: 16px;
+    }
+  }
+  i{
+    font-size: 4em;
+  }
+  span#counter-number1, span#counter-number2, span#counter-number3, span#counter-number4 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    color: white;
+  }
+  .counter-text {
+    margin-left: 10px;
+    font-size: 13px;
+    color: white;
+  }
+}

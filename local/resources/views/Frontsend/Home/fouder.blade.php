@@ -81,16 +81,9 @@
 
                         <h6>Brady Phạm</h6>
                         <span>CEO & Founder</span>
-
-
-
                     </div>
                 @endfor
-
-
             </div>
-
-
         </div>
     </div>
 </div>

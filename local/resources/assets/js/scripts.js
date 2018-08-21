@@ -1,5 +1,9 @@
 var plugins = {
-    doRegisterWebsite: $('.do-register')
+    doRegisterWebsite: $('.do-register'),
+    h7OwlCarousel:$('#owl-3'),
+    d2OwlCarousel:$('#owl-4'),
+    d3OwlCarousel:$('#owl-5'),
+    h8CountUp:$('#h_8'),
 };
 $(document).ready(function () {
     function getBaseURL() {
@@ -80,7 +84,150 @@ $(document).ready(function () {
             $(e.currentTarget).find('#btnRegister').unbind();
         });
     }
+    function runH7OwlCarousel(){
+        plugins.h7OwlCarousel.owlCarousel({
+            // animateOut: 'fadeIn',
+            // animateIn: 'fadeOut',
+            loop:true,
+            margin:10,
+            nav:false,
+            dots:true,
+            responsive:{
+                0:{
+
+                    items:1
+                },
+                600:{
+
+                    items:1
+                },
+                1000:{
+
+                    items:1
+                }
+            }
+        });
+    }
+    function runH8CountUp(){
+        var waypoint = new Waypoint({
+            element: document.getElementById('h_static'),
+            handler: function () {
+                var options1 = {
+                    useEasing: true,
+                    useGrouping: false,
+                    separator: ',',
+                    decimal: '.',
+                    prefix: '',
+                    suffix: '+'
+                };
+                var options2 = {
+                    useEasing: true,
+                    useGrouping: false,
+                    separator: ',',
+                    decimal: '.',
+                    prefix: '',
+                    suffix: '%'
+                };
+                var numHs1 = new CountUp("counter-number1", 0, 150, 0, 1.5,);
+                var numHs2 = new CountUp("counter-number2", 0, 55, 0, 2,);
+                var numHs3 = new CountUp("counter-number3", 0, 100, 0, 2.2, options1);
+                var numHs4 = new CountUp("counter-number4", 0, 10, 0, 2,);
+                numHs1.start();
+                numHs2.start();
+                numHs3.start();
+                numHs4.start();
+                waypoint.disable();
+            },
+            offset: '85%'
+        })
+    }
+    function runD2OwlCarousel(){
+        $('.customNextBtn').click(function () {
+            plugins.d2OwlCarousel.trigger('next.owl.carousel');
+        })
+// Go to the previous item
+        $('.customPrevBtn').click(function () {
+            // With optional speed parameter
+            // Parameters has to be in square bracket '[]'
+            plugins.d2OwlCarousel.trigger('prev.owl.carousel', [300]);
+        })
+        plugins.d2OwlCarousel.owlCarousel({
+            center: true,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    // dots: true,
+                    items: 1,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    // dots: true,
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    // dots: true,
+                    items: 3,
+                    nav: false,
+                    loop: true
+
+                }
+            }
+        });
+    }
+    function runD3OwlCarousel(){
+        plugins.d3OwlCarousel.owlCarousel({
+            dots: true,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    dots: true,
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    dots: true,
+                    items: 4,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    dots: true,
+                    items: 8,
+                    nav: false,
+                    loop: true
+
+                }
+            }
+        });
+    }
     if (plugins.doRegisterWebsite.length) {
         doRegisterWebsite();
     }
+    if(plugins.h7OwlCarousel.length){
+        runH7OwlCarousel();
+    }
+    if(plugins.h8CountUp.length){
+        runH8CountUp();
+    }
+    if(plugins.d2OwlCarousel.length){
+        runD2OwlCarousel();
+    }
+    if(plugins.d3OwlCarousel.length){
+        runD3OwlCarousel();
+    }
+    new WOW().init();
 });

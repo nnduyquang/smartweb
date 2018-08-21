@@ -5,11 +5,6 @@
         font-weight: 600;
     }
 
-    /*div#easy_interaction h5{*/
-        /*height: 39px;*/
-    /*}*/
-
-
     div#easy_interaction p{
         position: relative;
         font-size: 22px;

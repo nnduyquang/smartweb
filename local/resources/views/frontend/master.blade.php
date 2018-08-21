@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Cuprum|Roboto|Yanone+Kaffeesatz" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/v4-shims.css">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('font/flaticon.css')}}">
     {{--<meta property="og:site_name" content="Site Name, i.e. Moz" />--}}
     {{ Html::style('css/core.common.css') }}
     {{ Html::style('css/core.frontend.css') }}
@@ -36,7 +37,7 @@
     @yield('container')
 </div>
 {{--@include('frontend.common.menu.m-sidebar')--}}
-{{--@include('frontend.common.footer')--}}
+@include('frontend.common.footer')
 
 {{ Html::script('js/core.common.js') }}
 {{ Html::script('js/core.frontend.js') }}

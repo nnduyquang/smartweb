@@ -1,0 +1,28 @@
+#h_2{
+  h5 {
+    font-size: 36px;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 20px;
+    &:before{
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 68px;
+      background-color: #0a95d1;
+      bottom: -10px;
+      span{
+        font-weight: normal;
+        color: #0a95d1;
+      }
+    }
+
+  }
+  p {
+    font-size: 16px;
+  }
+  span.tit-span-tkw {
+    font-size: 14px;
+    color: #6c757d;
+  }
+}

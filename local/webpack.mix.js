@@ -9,8 +9,10 @@ mix.styles([
     //'bower_components/fancybox/dist/jquery.fancybox.min.js',
 ], '../js/core.common.js')
     .styles([
-        'bower_components/wow/dist/wow.min.js','bower_components/waypoints/lib/noframework.waypoints.min.js',
+        'bower_components/wow/dist/wow.min.js',
+        'bower_components/waypoints/lib/noframework.waypoints.min.js',
         'bower_components/owl.carousel/dist/owl.carousel.min.js',
+        'bower_components/countUp.js/dist/countUp.min.js',
     ], '../js/core.frontend.js')
 
 //CSS DÙNG CHUNG CHO FRONTEND VÀ BACKEND

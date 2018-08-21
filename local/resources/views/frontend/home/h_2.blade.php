@@ -1,36 +1,4 @@
-<style>
-    div#fe_h_CMWD h5 {
-        font-size: 36px;
-        position: relative;
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
-
-    div#fe_h_CMWD h5:before {
-        content: '';
-        position: absolute;
-        height: 2px;
-        width: 68px;
-        background-color: #0a95d1;
-        bottom: -10px;
-    }
-
-    div#fe_h_CMWD h5 span {
-        font-weight: normal;
-        color: #0a95d1;
-    }
-
-    div#fe_h_CMWD p {
-        font-size: 16px;
-    }
-
-    span.tit-span-tkw {
-        font-size: 14px;
-        color: #6c757d;
-    }
-</style>
-
-<div class="container-fluid pb-5" id="fe_h_CMWD">
+<div id="h_2" class="pt-4">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mt-2">
