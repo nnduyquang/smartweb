@@ -107,7 +107,7 @@
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
-                    <button class="btn-xemdemo"><a href="http://saigonintelahcm.com/">XEM DEMO</a></button>
+                    <button class="btn-xemdemo"><a href="">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
             </div>
