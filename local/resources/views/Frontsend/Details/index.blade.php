@@ -122,8 +122,6 @@
 
         ul.li_linhvuc li a{
             width: inherit;
-            color: ;
-
         }
 
         @media screen and (max-width: 480px) and (min-width: 320px) {
