@@ -10,6 +10,7 @@
     tất cả các tỉnh khác trong và ngoài nước, chúng tối rất chân thành cám ơn vì đã tìm tới dịch vụ của chúng tôi, đật chất lượng
     và uy tín lên hàng đầu chúng tôi là smartlinks.vn." />
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    {{----}}
     <link rel="shortcut icon" href="{{URL::asset('images/icon/favicon.ico')}}" type="image/x-icon">
     <link rel="icon" href="{{URL::asset('images/icon/favicon.ico')}}" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{URL::asset('font/flaticon.css')}}">
