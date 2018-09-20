@@ -231,6 +231,7 @@
                     <button class="btn-xemdemo"><a href="{{URL::asset('/website-xe-hoi.html')}}">XEM DEMO</a></button>
                     <button class="btn-chongd">CHỌN GIAO DIỆN</button>
                 </div>
+                {{----}}
             </div>
 
             <div class="col-md-12">
