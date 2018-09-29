@@ -158,7 +158,7 @@
 
             <div class="col-md-4 text-center mb-5">
                 <div style="height: 338px;overflow: hidden">
-                    <img src="{{URL::asset('images/banner/webmau-so3.jpg')}}"
+                    <img src="{{URL::asset('images/Banner/webmau-so3.jpg')}}"
                          alt="" style="width: 99%;margin: auto;height: auto">
                 </div>
                 <div style="width: 100%" class="d-flex justify-content-between mt-3">
