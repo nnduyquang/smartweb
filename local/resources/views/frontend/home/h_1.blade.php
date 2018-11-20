@@ -11,7 +11,7 @@
                     <p class="mb-5 p-fadein" style="font-size: 18px">
 
                         - Chỉ
-                        <span style="font-size: 36px;color: greenyellow">3.900.000</span>
+                        <span style="font-size: 36px;color: greenyellow">4.900.000</span>
                         sẽ mang đến cho khách hàng một trải nghiệm tuyệt vời. <br>
                         - Một Website giao diện hiện đại, thật chất lượng. <br>
                         - Website tối ưu quảng cáo đạt chuẩn Google. <br>
