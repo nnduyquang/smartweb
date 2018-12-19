@@ -14,6 +14,12 @@ mix.styles([
         'bower_components/owl.carousel/dist/owl.carousel.min.js',
         'bower_components/countUp.js/dist/countUp.min.js',
     ], '../js/core.frontend.js')
+    .styles([
+        'bower_components/admin-lte/dist/js/adminlte.min.js',
+        'bower_components/bootstrap-toggle/js/bootstrap-toggle.min.js',
+        'bower_components/gijgo/dist/combined/js/gijgo.min.js',
+        'bower_components/jquery-nestable/jquery.nestable.js',
+    ], '../js/core.backend.js')
 
 //CSS DÙNG CHUNG CHO FRONTEND VÀ BACKEND
     .styles([
@@ -25,13 +31,38 @@ mix.styles([
         //'bower_components/fancybox/dist/jquery.fancybox.min.css',
     ], '../css/core.common.css')
     .styles([
+        'bower_components/admin-lte/dist/css/adminlte.min.css',
+        'bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css',
+        'bower_components/gijgo/dist/combined/css/gijgo.min.css',
+
+    ], '../css/core.backend.css')
+    .styles([
         'bower_components/animate.css/animate.min.css'
     ], '../css/core.frontend.css')
 
     .sass('resources/assets/sass/frontend.scss', '../css/frontend.css')
+    .sass('resources/assets/sass/backend.scss', '../css/backend.css')
 
     .styles('resources/assets/js/scripts.js','../js/scripts.js')
     .styles('resources/assets/js/Backend/scripts.js','../js/be_scripts.js')
+    .styles([
+        'resources/assets/sass/login1.scss',
+    ], '../css/login.css')
+    .styles([
+        'resources/assets/js/be.common.js',
+        'resources/assets/js/be.page.js',
+        'resources/assets/js/be.post.js',
+        'resources/assets/js/be.product.js',
+        'resources/assets/js/be.menu.js',
+        'resources/assets/js/be.config.email.js',
+        'resources/assets/js/be.categoryproduct.js',
+    ], '../js/backend.js')
+    .styles([
+        'resources/assets/js/login1.js',
+    ], '../js/login.js')
+    .styles([
+        'resources/assets/js/ulti.js',
+    ], '../js/ulti.js')
 
 //chu y Doan cuoi nay chay mot lan npm run dev roi dong khoi no lai de chay fontawesome
 // .copy([

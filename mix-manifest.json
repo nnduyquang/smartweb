@@ -1,9 +1,16 @@
 {
     "/ss/frontend.css": "/ss/frontend.css",
+    "/ss/backend.css": "/ss/backend.css",
     "/s/core.common.js": "/s/core.common.js",
     "/s/core.frontend.js": "/s/core.frontend.js",
+    "/s/core.backend.js": "/s/core.backend.js",
     "/ss/core.common.css": "/ss/core.common.css",
+    "/ss/core.backend.css": "/ss/core.backend.css",
     "/ss/core.frontend.css": "/ss/core.frontend.css",
     "/s/scripts.js": "/s/scripts.js",
-    "/s/be_scripts.js": "/s/be_scripts.js"
+    "/s/be_scripts.js": "/s/be_scripts.js",
+    "/ss/login.css": "/ss/login.css",
+    "/s/backend.js": "/s/backend.js",
+    "/s/login.js": "/s/login.js",
+    "/s/ulti.js": "/s/ulti.js"
 }

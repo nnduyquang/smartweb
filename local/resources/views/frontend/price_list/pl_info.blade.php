@@ -156,4 +156,4 @@
         {{--</div>--}}
     </div>
 </div>
-@include('Frontsend.price_list.pl_modal_register')
+@include('frontend.price_list.pl_modal_register')
