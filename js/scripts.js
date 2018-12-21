@@ -3,6 +3,7 @@ var plugins = {
     h7OwlCarousel:$('#owl-3'),
     d2OwlCarousel:$('#owl-4'),
     d3OwlCarousel:$('#owl-5'),
+    d4OwlCarousel:$('#owl-6'),
     h8CountUp:$('#h_8'),
 };
 $(document).ready(function () {

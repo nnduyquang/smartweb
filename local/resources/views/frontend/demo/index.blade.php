@@ -19,5 +19,6 @@
     @include('frontend.demo.d_1')
     @include('frontend.demo.d_2')
     @include('frontend.demo.d_3')
+    @include('frontend.demo.d_4')
     @include('frontend.home.h_10')
 @stop

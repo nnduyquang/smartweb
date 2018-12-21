@@ -1726,3 +1726,59 @@
   transition: .3s;
 }
 
+#d_4 ul#owl-6 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#d_4 ul#owl-6 li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#d_4 #d_4_info .d_4_detail button.btn-xemdemo {
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #1b1e21;
+  background-color: transparent;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 6px 15px 3px 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#d_4 #d_4_info .d_4_detail button.btn-xemdemo:hover {
+  border: 1px solid #0a95d1;
+  background-color: #0a95d1;
+  color: white;
+}
+
+#d_4 #d_4_info .d_4_detail button.btn-xemdemo a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#d_4 #d_4_info .d_4_detail button.btn-chongd {
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  padding: 6px 15px 3px 15px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: #87c931;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#d_4 #d_4_info .d_4_detail button.btn-chongd:hover {
+  background-color: #0a95d1;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+

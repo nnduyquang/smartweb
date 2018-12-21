@@ -226,8 +226,8 @@
     </div>
 </div>
 
-<script>
-    $(document).ready(function () {
-        $('.dichvu-khac').hover()
-    })
-</script>
+{{--<script>--}}
+    {{--$(document).ready(function () {--}}
+        {{--$('.dichvu-khac').hover()--}}
+    {{--})--}}
+{{--</script>--}}

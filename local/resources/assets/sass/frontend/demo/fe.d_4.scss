@@ -1,0 +1,52 @@
+#d_4 {
+  ul#owl-6 {
+    justify-content: center;
+    li {
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px;
+      }
+    }
+  }
+  #d_4_info {
+    .d_4_detail {
+      button.btn-xemdemo {
+        font-size: 16px;
+        border-radius: 3px;
+        border: 1px solid #1b1e21;
+        background-color: transparent;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        padding: 6px 15px 3px 15px;
+        transition: .3s;
+        cursor: pointer;
+        &:hover {
+          border: 1px solid #0a95d1;
+          background-color: #0a95d1;
+          color: white;
+        }
+        a:hover {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      button.btn-chongd {
+        font-size: 16px;
+        border-radius: 3px;
+        border: none;
+        padding: 6px 15px 3px 15px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        background-color: #87c931;
+        color: white;
+        transition: .3s;
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+          background-color: #0a95d1;
+          color: white;
+          transition: .3s;
+        }
+      }
+    }
+  }
+}
